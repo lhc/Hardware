@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Neras_X_Apolo.OutJob
+Name=LHCbit.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=EPSON L395 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,7 +36,7 @@ OutputMedium4_Type=Multimedia
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=Neras_X_Apolo.PcbDoc
+OutputDocumentPath1=
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
@@ -268,7 +268,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\leand\Documents\Altium\Projetos\Neras_PRO_Gateway\Neras_X_(Apolo)\Apolo\
+OutputFilePath3=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\Apolo\
 ReleaseManaged3=0
 OutputBasePath3=Apolo\
 OutputPathMedia3=
@@ -322,7 +322,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\leand\Documents\Altium\Projetos\Neras_PRO_Gateway\Neras_X_(Apolo)\Apolo\Apolo.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\leand\Documents\Altium\Projetos\Neras_PRO_Gateway\Neras_X_(Apolo)\Apolo\
+RelativeOutputPath3=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\Apolo\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

@@ -161,131 +161,163 @@ DocumentPath=Apolo\BOM\Bill of Materials-Neras_X_Apolo.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Apolo\Design Rule Check - Neras_X_Apolo.html
+DocumentPath=Apolo\BOM\BOM - JLCPB-LHCbit.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.DRR
+DocumentPath=Apolo\BOM\BOM-LHCbit.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.EXTREP
+DocumentPath=Apolo\Design Rule Check - Neras_X_Apolo.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.G1
+DocumentPath=Apolo\NC Drill\LHCbit-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.G2
+DocumentPath=Apolo\NC Drill\LHCbit-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBL
+DocumentPath=Apolo\NC Drill\LHCbit.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBO
+DocumentPath=Apolo\DRC\LHCbit.html
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBP
+DocumentPath=Apolo\NC Drill\LHCbit.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBS
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GKO
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GM1
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.G1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTL
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.G2
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTO
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTP
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTS
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Apolo\DRC\Neras_X_Apolo.html
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.LDP
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.REP
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.RUL
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Apolo\ExportSTEP\Neras_X_Apolo.step
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.TXT
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=..\..\..\..\..\Desktop\Neras_X_Apolo.xlsx
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.csv
+DocumentPath=Apolo\DRC\Neras_X_Apolo.html
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Apolo\ExportSTEP\Neras_X_Apolo.step
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=..\..\..\..\..\Desktop\Neras_X_Apolo.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Apolo\Pick Place\Pick Place for LHCbit.csv
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.csv
+DItemRevisionGUID=
+
+[GeneratedDocument33]
 DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=<Address1>
+Name=<Time>
 Value=
 
 [Parameter2]
-Name=<ApprovedBy>
-Value=
+Name=<SheetTotal>
+Value=2
 
 [Parameter3]
-Name=<Author>
-Value=Leandro Pereira / Thiago Roque/Gustavo
+Name=<Rule>
+Value=
 
 [Parameter4]
-Name=<CheckedBy>
-Value=
+Name=<Revision>
+Value=2.0
 
 [Parameter5]
-Name=<CompanyName>
-Value=
+Name=<ProjectName>
+Value=Apolo
 
 [Parameter6]
-Name=<CurrentDate>
+Name=<Organization>
 Value=
 
 [Parameter7]
-Name=<CurrentTime>
+Name=<ModifiedDate>
 Value=
 
 [Parameter8]
-Name=<Date>
+Name=<Engineer>
 Value=
 
 [Parameter9]
@@ -293,35 +325,35 @@ Name=<DrawnBy>
 Value=
 
 [Parameter10]
-Name=<Engineer>
+Name=<Date>
 Value=
 
 [Parameter11]
-Name=<ModifiedDate>
+Name=<CurrentTime>
 Value=
 
 [Parameter12]
-Name=<Organization>
+Name=<CurrentDate>
 Value=
 
 [Parameter13]
-Name=<ProjectName>
-Value=Apolo
-
-[Parameter14]
-Name=<Revision>
-Value=B.2
-
-[Parameter15]
-Name=<Rule>
+Name=<CompanyName>
 Value=
 
+[Parameter14]
+Name=<CheckedBy>
+Value=
+
+[Parameter15]
+Name=<Author>
+Value=Leandro Pereira / Thiago Roque/Gustavo
+
 [Parameter16]
-Name=<SheetTotal>
-Value=2
+Name=<ApprovedBy>
+Value=
 
 [Parameter17]
-Name=<Time>
+Name=<Address1>
 Value=
 
 [Configuration1]
@@ -1065,6 +1097,36 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
+OutputType11=Ansoft Neutral
+OutputName11=Ansoft Neutral (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=HyperLynx
+OutputName12=HyperLynx (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=SiSoft
+OutputName16=SiSoft (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
