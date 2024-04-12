@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LHCbit.PcbDoc   01/04/2024  17:43:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LHCbit-RoundHoles.TXT
+ASCII SlotHoles File : LHCbit-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             319       PTH        707.36mm (27.85inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        38.14mm (1.50inch)
+T3      0.8mm (31mil)                                             Round             5         PTH        8.00mm (0.31inch)
+T4      1mm (39mil)                                               Round             11        PTH        25.40mm (1.00inch)
+T5      4mm (157mil)                                              Round             5         PTH        43.24mm (1.70inch)
+T6      0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              346
+
+Total Processing Time (hh:mm:ss) : 00:00:00

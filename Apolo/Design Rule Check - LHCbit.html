@@ -1,0 +1,518 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11/04/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">21:13:32</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc" class="file"><acronym title="C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc">C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">45</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">2</td></tr>
+</table>
+</td>
+</table><a name="ID5XC5H4RG3OMPL13YSU05QAV2PID5IN3SSYUDFNPZB2OYOEISMBZ"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE3YXD4H2MQGKJ4NGCCUTDDUVEH52ZVMMVO1WSMBV44PN3RURWUBE">Clearance Constraint (Gap=5.906mil) (All),(All)</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJZKB0CI2O1RMO2BH04ONUNT4LMUVAJACYEPVXAHGHNYHMX5PT5RP">Clearance Constraint (Gap=6mil) (InNetClass('50Ohms')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1FADLYZWBXL3M4TLZRTRYXGNQNJX3MOSHOZ1RPII5H5RTKKC43SK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5WAKSTYWQLO4DTZKTUKL5CRLSKLMWC2HNEGGRY0GIZFSMJGXXZC">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKBNYAZAQV0YVHPV11FTGIQUX4EIDASUZD4U2OBJGERERYUIGEUPK">Modified Polygon (Allow modified: Yes), (Allow shelved: Yes)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSAUXFUZZ5GYUIZ4CDNTEQLSCFIBICJWPGXADWMCYHIGCZYVUPL0C">Width Constraint (Min=3.937mil) (Max=140mil) (Preferred=7.874mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDB3PMIAVXWQ5JO5LA3IRV5VQD1IFBYH0VJKKXSAP0QCFCGMWHVHTB">Width Constraint (Min=8.839mil) (Max=10mil) (Preferred=10mil) (InNetClass('50Ohms'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5DFJR2YGYNMAHLD3QOCGMKUFYEPDGOHYNG3IN2D2DLES5CNRSTED">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=2) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDQAFGXHNC42UIOTDTNDPSWLZBLNVQM5NHREF5FEHGT2BU3ZLYVZP">Hole Size Constraint (Min=1mil) (Max=393.701mil) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTRE0GJBIPGMNDWKVLM1ONMSLMPENOV0OZ5FGSUJJ5NYVF1OYJ2BB">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5T3EMMKIS3RWGMGPBNFFO1KMTD2KSA4ZDGQAWJTALM4QOHLNJGM">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDWO1BPYOLWNSMLMRKRCKIQPSMMKFJZICBDP3U4MV2AFNTPS0V3FH">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDULDGCTAF4L55C4PEWUKT2XN2RKP5NVAJWS3PFRNCHQ4J5ACQBC">Silk to Silk (Clearance=0.039mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3O3FSFGE0JHHESQHVVJ0NVEPXJK0G3QPLFOFZ3JMZIKTVJL4U3UJ">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHJCXYAANL2RMHWDY4UYBSVOWYNTP2AMURCXR223RN2QBRNLIRGP">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">14</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUHWBJXBLHPTC2CLZEZ40H41KPTRVNPBHIYNMCIGSGALATZARIEC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">45</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMZMNDJGIUMFLGVG4NT0PNVPFXPMFNNU3QGLCXGSFIQGJL0JOQML">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">2</td>
+</tr>
+</table><br><a name="IDOBJ2VFF2X3CSE0QFAFHWQLUOWNFSMCN3IQGOSPJMB2VXUM214DXD"><h2>Rule Violations</h2></a><a name="IDE3YXD4H2MQGKJ4NGCCUTDDUVEH52ZVMMVO1WSMBV44PN3RURWUBE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=5.906mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1172.925mil|Location2.X=1177.861mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1172.925mil|Location2.X=1177.861mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-GND(171.456mil,273.619mil) on Multi-Layer And Text "GND" (262.201mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1172.925mil|Location2.X=1177.861mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1172.925mil|Location2.X=1177.861mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-GND(171.456mil,273.619mil) on Multi-Layer And Text "GND" (82.682mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.285mil|Location2.X=2880.222mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.285mil|Location2.X=2880.222mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P0(1873.817mil,273.619mil) on Multi-Layer And Text "0" (1785.043mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.285mil|Location2.X=2880.222mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.285mil|Location2.X=2880.222mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P0(1873.817mil,273.619mil) on Multi-Layer And Text "0" (1964.562mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.32mil|Location2.X=2478.258mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.32mil|Location2.X=2478.258mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P1(1471.852mil,273.619mil) on Multi-Layer And Text "1" (1381.892mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.32mil|Location2.X=2478.258mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.32mil|Location2.X=2478.258mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P1(1471.852mil,273.619mil) on Multi-Layer And Text "1" (1562.597mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.285mil|Location2.X=2030.223mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.285mil|Location2.X=2030.223mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P2(1023.817mil,273.619mil) on Multi-Layer And Text "2" (1114.562mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.285mil|Location2.X=2030.223mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.285mil|Location2.X=2030.223mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-P2(1023.817mil,273.619mil) on Multi-Layer And Text "2" (932.682mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.075mil|Location2.X=1581.013mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.075mil|Location2.X=1581.013mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-Vcc(574.607mil,273.619mil) on Multi-Layer And Text "Vcc" (484.647mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.075mil|Location2.X=1581.013mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.075mil|Location2.X=1581.013mil|Location1.Y=1267.214mil|Location2.Y=1272.151mil|Absolute=True">Clearance Constraint: (Collision &lt; 5.906mil) Between Pad MB1-Vcc(574.607mil,273.619mil) on Multi-Layer And Text "Vcc" (665.352mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID1FADLYZWBXL3M4TLZRTRYXGNQNJX3MOSHOZ1RPII5H5RTKKC43SK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1079.671mil|Location2.X=1271.115mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1079.671mil|Location2.X=1271.115mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-GND(171.456mil,273.619mil) on Multi-Layer And Text "GND" (262.201mil,-1.561mil) on Bottom Layer Location : [X = 1175.393mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1081.642mil|Location2.X=1273.086mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1081.642mil|Location2.X=1273.086mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-GND(171.456mil,273.619mil) on Multi-Layer And Text "GND" (82.682mil,-1.561mil) on Top Layer Location : [X = 1177.364mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2784.003mil|Location2.X=2975.447mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2784.003mil|Location2.X=2975.447mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P0(1873.817mil,273.619mil) on Multi-Layer And Text "0" (1785.043mil,-1.561mil) on Top Layer Location : [X = 2879.725mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.032mil|Location2.X=2973.476mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.032mil|Location2.X=2973.476mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P0(1873.817mil,273.619mil) on Multi-Layer And Text "0" (1964.562mil,-1.561mil) on Bottom Layer Location : [X = 2877.754mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2380.852mil|Location2.X=2572.296mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2380.852mil|Location2.X=2572.296mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P1(1471.852mil,273.619mil) on Multi-Layer And Text "1" (1381.892mil,-1.561mil) on Top Layer Location : [X = 2476.574mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2380.067mil|Location2.X=2571.511mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2380.067mil|Location2.X=2571.511mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P1(1471.852mil,273.619mil) on Multi-Layer And Text "1" (1562.597mil,-1.561mil) on Bottom Layer Location : [X = 2475.789mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1932.032mil|Location2.X=2123.476mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1932.032mil|Location2.X=2123.476mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P2(1023.817mil,273.619mil) on Multi-Layer And Text "2" (1114.562mil,-1.561mil) on Bottom Layer Location : [X = 2027.754mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1931.642mil|Location2.X=2123.086mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1931.642mil|Location2.X=2123.086mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-P2(1023.817mil,273.619mil) on Multi-Layer And Text "2" (932.682mil,-1.561mil) on Top Layer Location : [X = 2027.364mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1483.607mil|Location2.X=1675.051mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1483.607mil|Location2.X=1675.051mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-Vcc(574.607mil,273.619mil) on Multi-Layer And Text "Vcc" (484.647mil,-1.561mil) on Top Layer Location : [X = 1579.329mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1482.822mil|Location2.X=1674.266mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1482.822mil|Location2.X=1674.266mil|Location1.Y=1081.098mil|Location2.Y=1272.542mil|Absolute=True">Short-Circuit Constraint: Between Pad MB1-Vcc(574.607mil,273.619mil) on Multi-Layer And Text "Vcc" (665.352mil,-1.561mil) on Bottom Layer Location : [X = 1578.544mil][Y = 1176.82mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1071.26mil,1492.913mil) on Multi-Layer And Polygon Region (239 hole(s)) Layer 2 Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1071.26mil,1492.913mil) on Multi-Layer And Polygon Region (57 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1071.26mil,1492.913mil) on Multi-Layer And Polygon Region (61 hole(s)) Layer 1 Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1298.819mil,1492.913mil) on Multi-Layer And Polygon Region (121 hole(s)) Top Layer Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1298.819mil,1492.913mil) on Multi-Layer And Polygon Region (239 hole(s)) Layer 2 Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1298.819mil,1492.913mil) on Multi-Layer And Polygon Region (57 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad USB1-(1298.819mil,1492.913mil) on Multi-Layer And Polygon Region (61 hole(s)) Layer 1 Location : [X = 0mil][Y = 0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID5WAKSTYWQLO4DTZKTUKL5CRLSKLMWC2HNEGGRY0GIZFSMJGXXZC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1199.212mil|Location2.X=1399.213mil|Location1.Y=1317.322mil|Location2.Y=1493.701mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1199.212mil|Location2.X=1399.213mil|Location1.Y=1317.322mil|Location2.Y=1493.701mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Via (295.275mil,421.259mil) from Top Layer to Bottom Layer And Track (295.276mil,397.638mil)(311.024mil,381.89mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=943.307mil|Location2.X=1162.992mil|Location1.Y=1281.89mil|Location2.Y=1517.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=943.307mil|Location2.X=1162.992mil|Location1.Y=1281.89mil|Location2.Y=1517.322mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Track (31.346mil,377.803mil)(39.37mil,385.827mil) on Bottom Layer And Via (59.055mil,421.259mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3O3FSFGE0JHHESQHVVJ0NVEPXJK0G3QPLFOFZ3JMZIKTVJL4U3UJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1285.713mil|Location2.X=1320.186mil|Location1.Y=1380.201mil|Location2.Y=1432.351mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1285.713mil|Location2.X=1320.186mil|Location1.Y=1380.201mil|Location2.Y=1432.351mil|Absolute=True">Net Antennae: Track (295.276mil,397.638mil)(311.024mil,381.89mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.807mil|Location2.X=1064.281mil|Location1.Y=1368.39mil|Location2.Y=1420.54mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.807mil|Location2.X=1064.281mil|Location1.Y=1368.39mil|Location2.Y=1420.54mil|Absolute=True">Net Antennae: Track (31.346mil,377.803mil)(39.37mil,385.827mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHJCXYAANL2RMHWDY4UYBSVOWYNTP2AMURCXR223RN2QBRNLIRGP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2877.913mil|Location2.X=2881.537mil|Location1.Y=1000.499mil|Location2.Y=1004.123mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2877.913mil|Location2.X=2881.537mil|Location1.Y=1000.499mil|Location2.Y=1004.123mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "0" (1785.043mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.942mil|Location2.X=2879.566mil|Location1.Y=999.929mil|Location2.Y=1003.554mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.942mil|Location2.X=2879.566mil|Location1.Y=999.929mil|Location2.Y=1003.554mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "0" (1964.562mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2474.762mil|Location2.X=2478.386mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2474.762mil|Location2.X=2478.386mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "1" (1381.892mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.977mil|Location2.X=2477.601mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.977mil|Location2.X=2477.601mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "1" (1562.597mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.942mil|Location2.X=2029.566mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.942mil|Location2.X=2029.566mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "2" (1114.562mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.552mil|Location2.X=2029.176mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2025.552mil|Location2.X=2029.176mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "2" (932.682mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1173.581mil|Location2.X=1177.205mil|Location1.Y=996.994mil|Location2.Y=1000.619mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1173.581mil|Location2.X=1177.205mil|Location1.Y=996.994mil|Location2.Y=1000.619mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "GND" (262.201mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1175.552mil|Location2.X=1179.176mil|Location1.Y=996.586mil|Location2.Y=1000.211mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1175.552mil|Location2.X=1179.176mil|Location1.Y=996.586mil|Location2.Y=1000.211mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "GND" (82.682mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.517mil|Location2.X=1581.141mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1577.517mil|Location2.X=1581.141mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "Vcc" (484.647mil,-1.561mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.732mil|Location2.X=1580.356mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576.732mil|Location2.X=1580.356mil|Location1.Y=993.462mil|Location2.Y=997.087mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Text "Vcc" (665.352mil,-1.561mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1154.684mil|Location2.X=1158.308mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1154.684mil|Location2.X=1158.308mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Track (152.559mil,1482.284mil)(152.559mil,1748.032mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1509.014mil|Location2.X=1512.639mil|Location1.Y=2743.354mil|Location2.Y=2746.978mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1509.014mil|Location2.X=1512.639mil|Location1.Y=2743.354mil|Location2.Y=2746.978mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Track (152.559mil,1748.032mil)(861.221mil,1748.032mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1509.014mil|Location2.X=1512.639mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1509.014mil|Location2.X=1512.639mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Track (152.559mil,1748.032mil)(861.221mil,1748.032mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1863.345mil|Location2.X=1866.97mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1863.345mil|Location2.X=1866.97mil|Location1.Y=2744.419mil|Location2.Y=2748.044mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 3.937mil) Between Board Edge And Track (861.221mil,1482.284mil)(861.221mil,1748.032mil) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDBW2HVISL5YFYRS011F24KN2HFT4SPKCHLXBIZDNF3YCCFNMOQ4D"><h2>Waived Violations</h2></a><a name="IDMZMNDJGIUMFLGVG4NT0PNVPFXPMFNNU3QGLCXGSFIQGJL0JOQML"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2308.032mil|Location2.X=2315.698mil|Location1.Y=3012.298mil|Location2.Y=3019.965mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2308.032mil|Location2.X=2315.698mil|Location1.Y=3012.298mil|Location2.Y=3019.965mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Region (0 hole(s)) Bottom Overlay </acronym></a><br>Waived by Leandro Pereira at 01/04/2024 17:15:50</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2308.361mil|Location2.X=2316.027mil|Location1.Y=3013.45mil|Location2.Y=3021.116mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2308.361mil|Location2.X=2316.027mil|Location1.Y=3013.45mil|Location2.Y=3021.116mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Region (0 hole(s)) Bottom Overlay </acronym></a><br>Waived by Leandro Pereira at 01/04/2024 17:15:50</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
