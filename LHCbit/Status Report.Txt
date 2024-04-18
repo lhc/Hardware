@@ -1,10 +1,10 @@
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [[No Variations]] of PCB Document [LHCbit.PcbDoc]
-   Generated File[Pick Place for LHCbit.csv]
+Output: BOM
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LHCbit.PrjPcb]
+   Generated File[BOM-LHCbit.xlsx]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 13:55:10 On 14/04/2024
+Finished Output Generation At 19:26:58 On 18/04/2024
