@@ -156,6 +156,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMITXMVY
 
+[Document7]
+DocumentPath=LHCbit.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Apolo\BOM\Bill of Materials-Neras_X_Apolo.xlsx
 DItemRevisionGUID=
@@ -169,239 +186,243 @@ DocumentPath=Apolo\BOM\BOM-LHCbit.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Apolo\Design Rule Check - LHCbit.html
+DocumentPath=LHCbit\BOM\BOM_JLCPCB-LHCbit.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Apolo\Design Rule Check - Neras_X_Apolo.html
+DocumentPath=Apolo\Design Rule Check - LHCbit.html
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Apolo\NC Drill\LHCbit-RoundHoles.TXT
+DocumentPath=Apolo\Design Rule Check - Neras_X_Apolo.html
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=LHCbit\NC Drill\LHCbit-RoundHoles.TXT
+DocumentPath=Apolo\NC Drill\LHCbit-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Apolo\NC Drill\LHCbit-SlotHoles.TXT
+DocumentPath=LHCbit\NC Drill\LHCbit-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=LHCbit\NC Drill\LHCbit-SlotHoles.TXT
+DocumentPath=Apolo\NC Drill\LHCbit-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Apolo\NC Drill\LHCbit.DRR
+DocumentPath=LHCbit\NC Drill\LHCbit-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=LHCbit\NC Drill\LHCbit.DRR
+DocumentPath=Apolo\NC Drill\LHCbit.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=LHCbit\Gerber\LHCbit.EXTREP
+DocumentPath=LHCbit\NC Drill\LHCbit.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=LHCbit\Gerber\LHCbit.G1
+DocumentPath=LHCbit\Gerber\LHCbit.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=LHCbit\Gerber\LHCbit.G2
+DocumentPath=LHCbit\Gerber\LHCbit.G1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=LHCbit\Gerber\LHCbit.GBL
+DocumentPath=LHCbit\Gerber\LHCbit.G2
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=LHCbit\Gerber\LHCbit.GBO
+DocumentPath=LHCbit\Gerber\LHCbit.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=LHCbit\Gerber\LHCbit.GBP
+DocumentPath=LHCbit\Gerber\LHCbit.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=LHCbit\Gerber\LHCbit.GBS
+DocumentPath=LHCbit\Gerber\LHCbit.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=LHCbit\Gerber\LHCbit.GKO
+DocumentPath=LHCbit\Gerber\LHCbit.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=LHCbit\Gerber\LHCbit.GM1
+DocumentPath=LHCbit\Gerber\LHCbit.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=LHCbit\Gerber\LHCbit.GTL
+DocumentPath=LHCbit\Gerber\LHCbit.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=LHCbit\Gerber\LHCbit.GTO
+DocumentPath=LHCbit\Gerber\LHCbit.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=LHCbit\Gerber\LHCbit.GTP
+DocumentPath=LHCbit\Gerber\LHCbit.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=LHCbit\Gerber\LHCbit.GTS
+DocumentPath=LHCbit\Gerber\LHCbit.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Apolo\DRC\LHCbit.html
+DocumentPath=LHCbit\Gerber\LHCbit.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Apolo\NC Drill\LHCbit.LDP
+DocumentPath=Apolo\DRC\LHCbit.html
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=LHCbit\NC Drill\LHCbit.LDP
+DocumentPath=Apolo\NC Drill\LHCbit.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=LHCbit\Gerber\LHCbit.REP
+DocumentPath=LHCbit\NC Drill\LHCbit.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=LHCbit\Gerber\LHCbit.RUL
+DocumentPath=LHCbit\Gerber\LHCbit.REP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.DRR
+DocumentPath=LHCbit\Gerber\LHCbit.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.EXTREP
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.G1
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.G2
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.G1
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBL
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.G2
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBO
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBP
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBS
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GKO
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GM1
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTL
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTO
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTP
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTS
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Apolo\DRC\Neras_X_Apolo.html
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.LDP
+DocumentPath=Apolo\DRC\Neras_X_Apolo.html
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.REP
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Apolo\Gerber\Neras_X_Apolo.RUL
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.REP
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Apolo\ExportSTEP\Neras_X_Apolo.step
+DocumentPath=Apolo\Gerber\Neras_X_Apolo.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Apolo\NC Drill\Neras_X_Apolo.TXT
+DocumentPath=Apolo\ExportSTEP\Neras_X_Apolo.step
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=..\..\..\..\..\Desktop\Neras_X_Apolo.xlsx
+DocumentPath=Apolo\NC Drill\Neras_X_Apolo.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Apolo\Pick Place\Pick Place for LHCbit.csv
+DocumentPath=..\..\..\..\..\Desktop\Neras_X_Apolo.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=LHCbit\Pick Place\Pick Place for LHCbit.csv
+DocumentPath=Apolo\Pick Place\Pick Place for LHCbit.csv
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.csv
+DocumentPath=LHCbit\Pick Place\Pick Place for LHCbit.csv
 DItemRevisionGUID=
 
 [GeneratedDocument54]
+DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.csv
+DItemRevisionGUID=
+
+[GeneratedDocument55]
 DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=<Time>
+Name=<Address1>
 Value=
 
 [Parameter2]
-Name=<SheetTotal>
-Value=2
-
-[Parameter3]
-Name=<Rule>
+Name=<ApprovedBy>
 Value=
 
+[Parameter3]
+Name=<Author>
+Value=Leandro Pereira / Thiago Roque/Gustavo
+
 [Parameter4]
-Name=<Revision>
-Value=0.2
+Name=<CheckedBy>
+Value=
 
 [Parameter5]
-Name=<ProjectName>
-Value=LHCbit
+Name=<CompanyName>
+Value=
 
 [Parameter6]
-Name=<Organization>
+Name=<CurrentDate>
 Value=
 
 [Parameter7]
-Name=<ModifiedDate>
+Name=<CurrentTime>
 Value=
 
 [Parameter8]
-Name=<Engineer>
+Name=<Date>
 Value=
 
 [Parameter9]
@@ -409,35 +430,35 @@ Name=<DrawnBy>
 Value=
 
 [Parameter10]
-Name=<Date>
+Name=<Engineer>
 Value=
 
 [Parameter11]
-Name=<CurrentTime>
+Name=<ModifiedDate>
 Value=
 
 [Parameter12]
-Name=<CurrentDate>
+Name=<Organization>
 Value=
 
 [Parameter13]
-Name=<CompanyName>
-Value=
+Name=<ProjectName>
+Value=LHCbit
 
 [Parameter14]
-Name=<CheckedBy>
-Value=
+Name=<Revision>
+Value=0.2
 
 [Parameter15]
-Name=<Author>
-Value=Leandro Pereira / Thiago Roque/Gustavo
-
-[Parameter16]
-Name=<ApprovedBy>
+Name=<Rule>
 Value=
 
+[Parameter16]
+Name=<SheetTotal>
+Value=2
+
 [Parameter17]
-Name=<Address1>
+Name=<Time>
 Value=
 
 [Configuration1]
@@ -1594,6 +1615,22 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=ESP32_LHCbit.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=
+DocumentName1=STM32WL_LHCbit.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=2
+IndexEnabled1=0
+IndexStartValue1=1
+Suffix1=
 
 [PrjClassGen]
 CompClassManualEnabled=0

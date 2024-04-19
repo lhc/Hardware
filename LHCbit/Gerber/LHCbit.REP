@@ -2,14 +2,23 @@
 FileName = LHCbit.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 1
-      File : LHCbit.GM1
+Generating : Layer 1
+      File : LHCbit.G1
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Layer 1
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D11
     D13
+    D75
+    D76
+    D77
+    D80
+    D81
+    D82
 *************************************************************
 
 *************************************************************
@@ -20,60 +29,6 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : LHCbit.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D11
-    D13
-    D14
-    D68
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : LHCbit.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D19
-    D83
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : LHCbit.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D19
-    D54
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D85
 *************************************************************
 
 *************************************************************
@@ -120,6 +75,58 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Paste
+      File : LHCbit.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LHCbit.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : LHCbit.G2
+
+    Adding Layer      : Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D13
+    D75
+    D76
+    D77
+    D81
+    D82
+*************************************************************
+
+*************************************************************
 Generating : Top Paste
       File : LHCbit.GTP
 
@@ -155,20 +162,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : LHCbit.GTO
+Generating : Mechanical 1
+      File : LHCbit.GM1
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D10
-    D11
-    D12
     D13
-    D14
-    D15
-    D16
 *************************************************************
 
 *************************************************************
@@ -201,42 +202,41 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Layer 2
-      File : LHCbit.G2
+Generating : Bottom Overlay
+      File : LHCbit.GBO
 
-    Adding Layer      : Layer 2
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
     D11
     D13
-    D75
-    D76
-    D77
-    D81
-    D82
+    D14
+    D68
 *************************************************************
 
 *************************************************************
-Generating : Layer 1
-      File : LHCbit.G1
+Generating : Bottom Solder
+      File : LHCbit.GBS
 
-    Adding Layer      : Layer 1
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D13
-    D75
-    D76
-    D77
-    D80
-    D81
-    D82
+    D19
+    D54
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D85
 *************************************************************
 
 *************************************************************
