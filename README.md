@@ -2,9 +2,9 @@
 
 Placa de desenvolvimento para software embarcado baseado no formato da microbit
 
+![LHCbit](Imagens/pcb-LHCbit-00.jpeg)
 ![LHCbit](Imagens/pcb-LHCbit-01.jpeg)
 ![LHCbit](Imagens/pcb-LHCbit-02.jpeg)
-![LHCbit](Imagens/pcb-LHCbit-03.jpeg)
 
 # Checklist Review 0.1
 - O VCC e GND estava em curto, revisado por Leandro Pereira
