@@ -1,21 +1,6 @@
-# Desenvolvimento de HW LHC
+# LHCbit
 
-Desde a sua fundação vários projetos de HW abertos foram desenvolvidos no LHC, usando diferentes processadores e ferramentas.
-Este repositório contém todos os projetos já desenvolvidos no LHC.
-
-# Projetos
-
-- nodeLHC
-- nodeLHC-ESP32
-- LHCbit
-
-# Oficinas
-
-Página do Evento: https://eventos.lhc.net.br/event/live-construindo-sua-placa-em-kicad
-
-# Bibliotecas
-
-- Biblioteca desenvolvida durante oficina Construindo sua placa em Kicad
+Placa de desenvolvimento para software embarcado baseado no formato da microbit
 
 ![LHCbit](Imagens/pcb-LHCbit-00.jpeg)
 ![LHCbit](Imagens/pcb-LHCbit-01.jpeg)
