@@ -36,7 +36,7 @@ Página do Evento: https://eventos.lhc.net.br/event/live-construindo-sua-placa-e
 | ESP32-S3-16R8 pinout|  |  |
 
 ![LHCbit](LHCBit/Imagens/BOM-LHCbit.png)
-- [x] [BOM](TLHCbit/emplates/BOM%20Default%20Template.xlsx)
+- [x] [BOM](LHCbit/Templates/BOM%20Default%20Template.xlsx)
 
 
 
