@@ -17,9 +17,9 @@ Página do Evento: https://eventos.lhc.net.br/event/live-construindo-sua-placa-e
 
 - Biblioteca desenvolvida durante oficina Construindo sua placa em Kicad
 
-![LHCbit](Imagens/pcb-LHCbit-00.jpeg)
-![LHCbit](Imagens/pcb-LHCbit-01.jpeg)
-![LHCbit](Imagens/pcb-LHCbit-02.jpeg)
+![LHCbit](LHCbit/Imagens/pcb-LHCbit-00.jpeg)
+![LHCbit](LHCbit/Imagens/pcb-LHCbit-01.jpeg)
+![LHCbit](LHCbit/Imagens/pcb-LHCbit-02.jpeg)
 
 # Checklist Review 0.1
 - O VCC e GND estava em curto, revisado por Leandro Pereira
@@ -35,8 +35,8 @@ Página do Evento: https://eventos.lhc.net.br/event/live-construindo-sua-placa-e
 | OLED|  |  |
 | ESP32-S3-16R8 pinout|  |  |
 
-![LHCbit](Imagens/BOM-LHCbit.png)
-- [x] [BOM](Templates/BOM%20Default%20Template.xlsx)
+![LHCbit](LHCBit/Imagens/BOM-LHCbit.png)
+- [x] [BOM](TLHCbit/emplates/BOM%20Default%20Template.xlsx)
 
 
 
