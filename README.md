@@ -10,7 +10,7 @@ Acesse o nosso foúrm e tenha conexão com o time do Laboratório Hacker de Camp
 - [nodeLHC-ESP32](https://github.com/lhc/Hardware/tree/main/nodeLHC-ESP32)
 - [Construindo sua placa em KICAD](https://github.com/lhc/Hardware/tree/main/Oficinas/monte-sua-placa-kicad)
 - [LHCbit](https://github.com/lhc/Hardware/tree/main/LHCbit)
-- ![LHCbit](/LHCbit/Imagens/pcb-LHCbit-00.jpeg)
+- ![LHCbit](/LHCbit/Imagens/lhcbit-flyer.jpeg)
 - [Venda limitada, pegue a sua placa antes que acabe](https://forms.gle/h3qhtFoRbykofKP68)
 
 # Oficinas
