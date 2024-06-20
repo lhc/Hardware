@@ -24,10 +24,8 @@ Placa de desenvolvimento para software embarcado baseado no formato da microbit
 - [x] [BOM](Templates/BOM%20Default%20Template.xlsx)
 
 
-
 # Oficina de apresentação do projeto
 - [definindo] eventos.lhc.net.br
-
   
 # LOG
 - 25/04/2024 update README
