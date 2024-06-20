@@ -203,42 +203,30 @@ Configuration9_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full
 Configuration9_Name10=OutputConfigurationParameter10
 Configuration9_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\leand\Documents\Altium\Projetos\Neras_PRO_Gateway\Neras_X_(Apolo)\Neras_X_Apolo.PcbDoc
 PcbPrintPreferences9=
-OutputType10=PCBDrawing
-OutputName10=Draftsman
-OutputCategory10=Documentation
+OutputType10=BOM_PartType
+OutputName10=BOM_JLCPCB
+OutputCategory10=Report
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
-OutputEnabled10_OutputMedium2=4
-OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=4
 OutputEnabled10_OutputMedium4=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=BOM_PartType
-OutputName11=BOM_JLCPCB
-OutputCategory11=Report
-OutputDocumentPath11=
-OutputVariantName11=
-OutputEnabled11=1
-OutputEnabled11_OutputMedium1=0
-OutputEnabled11_OutputMedium2=0
-OutputEnabled11_OutputMedium3=4
-OutputEnabled11_OutputMedium4=0
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration11_Name1=ColumnNameFormat
-Configuration11_Item1=CaptionAsName
-Configuration11_Name2=General
-Configuration11_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\Templates\BOM Default Template - JLCPB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1115|FormHeight=727|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration11_Name3=GroupOrder
-Configuration11_Item3=Part Number=True
-Configuration11_Name4=OutputConfigurationParameter1
-Configuration11_Item4=osition:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Vendor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#18=Name:PinNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#19=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#20=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#21=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#22=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#23=Name:OC_FARN
-Configuration11_Name5=SortOrder
-Configuration11_Item5=Part Number=Up
-Configuration11_Name6=VisibleOrder
-Configuration11_Item6=Designator=100|Value=79|Quantity=100|Description=100|Vendor=77|Part Number=144|Família=100
+Configuration10_Name1=ColumnNameFormat
+Configuration10_Item1=CaptionAsName
+Configuration10_Name2=General
+Configuration10_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\Templates\BOM Default Template - JLCPB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1115|FormHeight=727|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration10_Name3=GroupOrder
+Configuration10_Item3=Part Number=True
+Configuration10_Name4=OutputConfigurationParameter1
+Configuration10_Item4=osition:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Vendor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#18=Name:PinNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#19=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#20=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#21=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#22=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#23=Name:OC_FARN
+Configuration10_Name5=SortOrder
+Configuration10_Item5=Part Number=Up
+Configuration10_Name6=VisibleOrder
+Configuration10_Item6=Designator=100|Value=79|Quantity=100|Description=100|Vendor=77|Part Number=144|Família=100
 
 [PublishSettings]
 OutputFilePath2=C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\Apolo.PDF
