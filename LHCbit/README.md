@@ -1,3 +1,5 @@
+# LHCBbit
+
 # O que é esse repositório ou projeto?
 LHCbit  é uma placa de desenvolvimento para a comunidade, uma ferramenta de aprendizado open-source, composta por:
 - ESP32-S3 - Microcontrolador com wifi e bluetooth
@@ -68,8 +70,18 @@ Oficina de apresentação do projeto
  - Leandro Pereira
  - Douglas Esteves
  - Manasses
+   
+# Agradecimentos especial aos apoiadores do Projeto
+- Daniel Barbosa
+- L.
+- Juliana Karoline
+- Fabio Barros
+- Luciono Ramalho
+- Jormar Silva
+- Estevan Castilho
 
-LOG
+# LOG
+- 12/07/2024 Update e consulta aos apoiadores do projeto
 - 20/06/2024 Reunião interna para comunicar apoiadores e documentar projeto
 - 25/04/2024 update README
 
