@@ -76,8 +76,8 @@ Oficina de apresentação do projeto
 - L.
 - Juliana Karoline
 - Fabio Barros
-- Luciono Ramalho
-- Jormar Silva
+- Luciano Ramalho
+- Jomar Silva
 - Estevan Castilho
 
 # LOG
