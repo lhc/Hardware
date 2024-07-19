@@ -2,8 +2,8 @@
 Desde a sua fundação vários projetos de HW abertos foram desenvolvidos no LHC, usando diferentes processadores e ferramentas.
 Este repositório contém todos os projetos já desenvolvidos no LHC.
 
-# Contribui e participte dos projetos com Hardware no LHC
-Acesse o nosso foúrm e tenha conexão com o time do Laboratório Hacker de Campinas, pode criar a conta no forum e conversar com o pessoal sobre projetos. [https://discourse.lhc.net.br](https://discourse.lhc.net.br/c/hardware/21)
+# Contribua e participe dos projetos com Hardware no LHC
+Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, através da criação de sua conta no forum e conversando com o pessoal sobre os diversos projetos. [https://discourse.lhc.net.br](https://discourse.lhc.net.br/c/hardware/21)
  
 # Projetos
 - [LHCbit](https://github.com/lhc/Hardware/tree/main/LHCbit)
