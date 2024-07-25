@@ -84,8 +84,11 @@ Oficina de apresentação do projeto
 - Estevan Castilho
 
 # LOG
-- 12/07/2024 Update e consulta aos apoiadores do projeto
+- 24/07/2024 Status do projeto (e-mail aos apoiadores)
+- 18/07/2024 Reunião interna para apresentar LHCbit aos associados e definiação da fabricação da pcb para o display
+- 12/07/2024 Update e consulta aos apoiadores do projeto (e-maisl aos apoiadores)
 - 20/06/2024 Reunião interna para comunicar apoiadores e documentar projeto
+- 13/06/2024 Status do projeto (e-mail aos apoiadores)
 - 25/04/2024 update README
 
 # Contatos:
