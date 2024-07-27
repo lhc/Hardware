@@ -19,13 +19,16 @@ Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, at
 # Bibliotecas
 - [KiCad LHC](https://github.com/lhc/Hardware/tree/main/Libraries/lhc_kicad_library)
 
-# Contributors 2024
+# Contributors (committers)
+
 - Leandro Pereira
 - Douglas Esteves
 - Manasses Souza
 - Jorge Guzman
 - Rafael Estevam
 
-- # Contributors
+## Overall project contributors
+
 - Pedro Minatel
+- Rafael Estevam
 - Tiago Serrano
