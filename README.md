@@ -54,14 +54,10 @@ Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, at
 </tr>
 </table>
 
-- Leandro Pereira
-- Douglas Esteves
-- Manasses Souza
-- Jorge Guzman
-- Rafael Estevam
 
 ## Overall project contributors
 
+- Jorge Guzman
 - Pedro Minatel
 - Rafael Estevam
 - Tiago Serrano
