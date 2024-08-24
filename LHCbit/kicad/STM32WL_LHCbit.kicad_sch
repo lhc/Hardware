@@ -1,0 +1,10831 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1274afc6-d060-4a9c-9dc5-25360badbfcf")
+	(paper "A3")
+	(title_block
+		(title "Prototipo Medidor Sem Fio")
+	)
+	(lib_symbols
+		(symbol "STM32WL_LHCbit-altium-import:+3V3_CIRCLE"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_CIRCLE_0_0"
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_0_C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_C-EUC0402_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 -1.524)
+					(end -2.032 -2.032)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 -0.508)
+					(end -2.032 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_0_L-US0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*L0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_L-US0603_1_0"
+				(arc
+					(start 0 -5.08)
+					(mid 0.898 -4.708)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid 0.898 -2.168)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.898 0.372)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 0.898 2.912)
+					(end 1.27 3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.81)
+					(mid 0.898 -2.912)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 0.898 -0.372)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 0.898 2.168)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 3.81)
+					(mid 0.898 4.708)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_0_RAK3172-SiP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RAK3172SiP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RAK3172-SiP_1_0"
+				(rectangle
+					(start 35.56 2.54)
+					(end 5.08 -93.98)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "VFBSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "VDDMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "VLXSMPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "PB6/UART1_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "PB7UART1_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -53.34 0)
+					(length 5.08)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -55.88 0)
+					(length 5.08)
+					(name "PC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -58.42 0)
+					(length 5.08)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -60.96 0)
+					(length 5.08)
+					(name "PC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -63.5 0)
+					(length 5.08)
+					(name "PC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -66.04 0)
+					(length 5.08)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -68.58 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -71.12 0)
+					(length 5.08)
+					(name "PA2/UART2_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -73.66 0)
+					(length 5.08)
+					(name "PA3/UART2_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -76.2 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -78.74 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -81.28 0)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -83.82 0)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -86.36 0)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -88.9 0)
+					(length 5.08)
+					(name "GND_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -91.44 0)
+					(length 5.08)
+					(name "RF_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "GND_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 5.08)
+					(name "GND_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -5.08 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -10.16 180)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 5.08)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -15.24 180)
+					(length 5.08)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -17.78 180)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -20.32 180)
+					(length 5.08)
+					(name "GND_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -22.86 180)
+					(length 5.08)
+					(name "GND_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -25.4 180)
+					(length 5.08)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -27.94 180)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -30.48 180)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -33.02 180)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -35.56 180)
+					(length 5.08)
+					(name "GND_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -38.1 180)
+					(length 5.08)
+					(name "VDDPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -40.64 180)
+					(length 5.08)
+					(name "VDDRF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -43.18 180)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -45.72 180)
+					(length 5.08)
+					(name "GND_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -48.26 180)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -50.8 180)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -53.34 180)
+					(length 5.08)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -55.88 180)
+					(length 5.08)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -58.42 180)
+					(length 5.08)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -60.96 180)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -63.5 180)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -66.04 180)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -68.58 180)
+					(length 5.08)
+					(name "GND_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -71.12 180)
+					(length 5.08)
+					(name "GND_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -73.66 180)
+					(length 5.08)
+					(name "GND_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -76.2 180)
+					(length 5.08)
+					(name "GND_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -78.74 180)
+					(length 5.08)
+					(name "GND_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -81.28 180)
+					(length 5.08)
+					(name "GND_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -83.82 180)
+					(length 5.08)
+					(name "GND_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -86.36 180)
+					(length 5.08)
+					(name "GND_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -88.9 180)
+					(length 5.08)
+					(name "GND_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_0_SMACONNECTOR_EDGE_UFL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SMA_EDGELAUNCH_UFL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_SMACONNECTOR_EDGE_UFL_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.175 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 3.175) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.359)
+					(stroke
+						(width 0.762)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "GND4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_1_C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_C-EUC0402_1_0"
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.032)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_1_L-US0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*L0402{space}-{space}rounded*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_L-US0402_1_0"
+				(arc
+					(start -3.81 1.27)
+					(mid -4.708 0.898)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.912 0.898)
+					(end -3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -2.168 0.898)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.372 0.898)
+					(end -1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 0.372 0.898)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.168 0.898)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.27)
+					(mid 2.912 0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.708 0.898)
+					(end 3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_1_L-US0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*L0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_L-US0805_1_0"
+				(arc
+					(start -3.81 1.27)
+					(mid -4.708 0.898)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.912 0.898)
+					(end -3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -2.168 0.898)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.372 0.898)
+					(end -1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 0.372 0.898)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.168 0.898)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.27)
+					(mid 2.912 0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.708 0.898)
+					(end 3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_1_R-US_R0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_R-US_R0402_1_0"
+				(polyline
+					(pts
+						(xy -1.016 -2.159) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -0.889) (xy 1.016 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.381) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.651) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.016 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy -1.016 -2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.254) (xy -1.016 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy -1.016 0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy -1.016 1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_2_62000511121"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-PHD 2.00 mm THT Pin Header, 6p"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*62000511121*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_62000511121_1_0"
+				(rectangle
+					(start 0 15.24)
+					(end -7.62 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_2_C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_C-EUC0402_1_0"
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 1.016)
+					(end -2.032 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end -2.032 1.524)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WL_LHCbit-altium-import:root_2_L-US0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*L0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_L-US0603_1_0"
+				(arc
+					(start -1.27 -3.81)
+					(mid -0.898 -4.708)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -0.898 -2.168)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -0.898 0.372)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -0.898 2.912)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -0.898 -2.912)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.898 -0.372)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid -0.898 2.168)
+					(end -1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid -0.898 4.708)
+					(end -1.27 3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 294.64 211.9122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f4c65e6-c447-4aed-b2fa-c0033e6e39a4")
+	)
+	(junction
+		(at 294.64 219.5322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ddbf18-0fd1-430b-b415-725d95d08a74")
+	)
+	(junction
+		(at 46.99 39.1922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17a32b85-1aa4-4b07-a952-32d15169471a")
+	)
+	(junction
+		(at 335.28 156.0322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be920eb-3e1f-407f-a252-79f39b473114")
+	)
+	(junction
+		(at 77.47 53.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3ad853-4abc-49c9-882c-a60370b7d286")
+	)
+	(junction
+		(at 351.79 181.4322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20122374-9ffc-414f-9321-80c1fadad25f")
+	)
+	(junction
+		(at 312.42 153.4922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2615fbfa-d577-4497-ac62-44e0db76c616")
+	)
+	(junction
+		(at 322.58 156.0322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ff54196-1bb3-4ec1-8d2a-ed5f753b564f")
+	)
+	(junction
+		(at 294.64 224.6122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b2ff70-7623-4fb7-9be2-acaea49b4395")
+	)
+	(junction
+		(at 46.99 79.8322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1995eb-232c-4ace-99cb-354650807ef1")
+	)
+	(junction
+		(at 350.52 53.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "402ef246-1176-403d-9937-282d89b115f9")
+	)
+	(junction
+		(at 243.84 227.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3cbcd9-146c-486c-887e-83a1358127b2")
+	)
+	(junction
+		(at 62.23 59.5122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f7c0c2d-901e-4535-a332-aacaf05db020")
+	)
+	(junction
+		(at 294.64 227.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51be04e3-ef13-4c35-9d6a-3c91c36d8715")
+	)
+	(junction
+		(at 334.01 210.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "614512cf-290d-40d6-aec5-bb8fccb1260a")
+	)
+	(junction
+		(at 316.23 210.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63409770-da5e-4257-b895-8975a23285f2")
+	)
+	(junction
+		(at 340.36 63.3222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d56bde-f52b-4332-b4a5-6203977bc895")
+	)
+	(junction
+		(at 340.36 43.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7637f4fb-942f-4005-91d5-184dea0dc1df")
+	)
+	(junction
+		(at 294.64 222.0722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dce03d7-9130-4534-99b5-cdde506accb6")
+	)
+	(junction
+		(at 77.47 39.1922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f3b65da-6fa8-4873-b642-189afa7d2591")
+	)
+	(junction
+		(at 190.5 171.2722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f9d20a7-c24b-4f19-989d-daa448b27754")
+	)
+	(junction
+		(at 316.23 197.9422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93a46893-2199-4c86-8969-11b2d93a89a3")
+	)
+	(junction
+		(at 76.2 72.2122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da03aca-cd57-4ad0-b840-0da43ebccc4d")
+	)
+	(junction
+		(at 294.64 216.9922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1bfc9e5-22a5-40e2-8963-3340fee30459")
+	)
+	(junction
+		(at 298.45 163.6522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa17ea7f-0e46-4b4b-876d-ebcd560dcf24")
+	)
+	(junction
+		(at 294.64 214.4522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad50278-45ee-49a9-bd47-9ba6c64fad29")
+	)
+	(junction
+		(at 76.2 59.5122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abcfad81-a45a-43e9-8e85-f0bf445ac7b5")
+	)
+	(junction
+		(at 66.04 96.3422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af59d9ba-c60d-4968-ba46-9945136bb031")
+	)
+	(junction
+		(at 317.5 53.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcdfd76a-4e4c-4a75-865c-4f730849b07e")
+	)
+	(junction
+		(at 334.01 181.4322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd9f57ab-ac8e-4988-bb34-8459ada2f2fc")
+	)
+	(junction
+		(at 298.45 161.1122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be87a227-ea65-40d9-a33f-dc5b6c1bcba2")
+	)
+	(junction
+		(at 46.99 59.5122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c092e618-93a0-447f-bdca-aad895209381")
+	)
+	(junction
+		(at 298.45 140.7922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1071c88-b793-4a7d-8c3e-37e4eac8a486")
+	)
+	(junction
+		(at 200.66 58.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7435eec-6729-459e-b705-3986759543fe")
+	)
+	(junction
+		(at 190.5 187.7822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d406a136-8bf3-448b-9a04-d4b417130a6a")
+	)
+	(junction
+		(at 294.64 229.6922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dda67b0d-3881-4c9f-bdcb-787d753c99d5")
+	)
+	(junction
+		(at 200.66 171.2722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1cfbc04-265d-41cd-813f-46abf0dea047")
+	)
+	(junction
+		(at 68.58 79.8322)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4be18f5-ec0e-40d8-929e-477a9fc51746")
+	)
+	(junction
+		(at 81.28 96.3422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6400307-4ff4-4a7c-a6f9-3a6ab8117a0e")
+	)
+	(junction
+		(at 294.64 53.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f66e235b-ad49-4197-b69b-dedc0f4ef9d1")
+	)
+	(junction
+		(at 81.28 109.0422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc18f85f-c763-426d-bd6a-7cda6e21ba3d")
+	)
+	(junction
+		(at 175.26 166.1922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc1ac2d2-50c0-436a-833b-2982cf957c22")
+	)
+	(junction
+		(at 62.23 39.1922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff7cf91-07fa-4400-aae5-a0503c6d1915")
+	)
+	(no_connect
+		(at 233.68 145.8722)
+		(uuid "ffe0bd31-4841-4e97-aa5d-9ca7fd988a67")
+	)
+	(wire
+		(pts
+			(xy 217.17 171.2722) (xy 200.66 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019c1209-643e-4b8b-b16e-25b865405c1d")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.1622) (xy 77.47 50.6222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e50dc1-14e9-43ca-a054-405acef3765c")
+	)
+	(wire
+		(pts
+			(xy 290.83 224.6122) (xy 294.64 224.6122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a2fbdb-85f2-41e0-9967-aae73906b4ee")
+	)
+	(wire
+		(pts
+			(xy 290.83 211.9122) (xy 294.64 211.9122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071f1da9-4848-422b-831c-4715d8d2b64a")
+	)
+	(wire
+		(pts
+			(xy 290.83 186.5122) (xy 299.72 186.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08866b0e-eae3-404f-8b53-6342788445f4")
+	)
+	(wire
+		(pts
+			(xy 290.83 214.4522) (xy 294.64 214.4522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cf6001-bc52-4d44-bcf9-eac63d127ba3")
+	)
+	(wire
+		(pts
+			(xy 294.64 65.8622) (xy 294.64 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f91769e-5401-464f-abb0-d622326d8821")
+	)
+	(wire
+		(pts
+			(xy 290.83 219.5322) (xy 294.64 219.5322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc10681-0194-443e-b836-9c51c5859317")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.2122) (xy 87.63 72.2122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126c2094-2b37-4d18-b1d3-2ed99ae84e55")
+	)
+	(wire
+		(pts
+			(xy 250.19 166.1922) (xy 175.26 166.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126d53b9-70b0-45e9-a38d-f5a1b132a20c")
+	)
+	(wire
+		(pts
+			(xy 250.19 171.2722) (xy 232.41 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b598ff-4c62-4b48-8d1a-f3c193b3b7d1")
+	)
+	(wire
+		(pts
+			(xy 91.44 79.8322) (xy 68.58 79.8322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b16404-209a-48b7-8e82-91b2e4f71877")
+	)
+	(wire
+		(pts
+			(xy 294.64 222.0722) (xy 294.64 224.6122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a9e34e-a508-417d-81ca-843c5136e7ef")
+	)
+	(wire
+		(pts
+			(xy 316.23 206.8322) (xy 316.23 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182f8f19-9de7-478c-a4fd-6f16427def9c")
+	)
+	(wire
+		(pts
+			(xy 243.84 227.1522) (xy 250.19 227.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18886ba8-c74e-4313-bfec-1bf0af4bbc8a")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.6722) (xy 76.2 72.2122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d197655-5105-48f3-86ec-7f4c6fcf6e21")
+	)
+	(wire
+		(pts
+			(xy 66.04 96.3422) (xy 81.28 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d91a789-e185-452e-8794-7c48c20792db")
+	)
+	(wire
+		(pts
+			(xy 342.9 205.5622) (xy 342.9 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2023600d-0608-43ca-94d6-7cbdcee5a704")
+	)
+	(wire
+		(pts
+			(xy 180.34 70.9422) (xy 180.34 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20607f8e-dbef-48a3-bc8d-b3a8c75d5ba9")
+	)
+	(wire
+		(pts
+			(xy 250.19 214.4522) (xy 219.71 214.4522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229d43fb-5a7e-4988-a58d-849fab2a6f4e")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.6222) (xy 200.66 58.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232347df-3be8-4b2c-991f-43dda354d32a")
+	)
+	(wire
+		(pts
+			(xy 340.36 63.3222) (xy 340.36 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2450365b-1012-4b9a-a7f3-8fcd181c8a50")
+	)
+	(wire
+		(pts
+			(xy 190.5 163.6522) (xy 250.19 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b4aadf-33e8-41e3-9dc3-36acbdc2a55b")
+	)
+	(wire
+		(pts
+			(xy 200.66 173.8122) (xy 200.66 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a176b3-b197-4949-9ef9-1065ce762fa1")
+	)
+	(wire
+		(pts
+			(xy 290.83 222.0722) (xy 294.64 222.0722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fbbff5-c63f-4547-8e6f-8889ecf51673")
+	)
+	(wire
+		(pts
+			(xy 62.23 69.6722) (xy 62.23 72.2122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2798a879-52f9-46f5-a6b2-97176abaee99")
+	)
+	(wire
+		(pts
+			(xy 312.42 128.0922) (xy 312.42 136.9822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac8a33d-6487-482c-bf46-1f420a79b598")
+	)
+	(wire
+		(pts
+			(xy 335.28 43.0022) (xy 340.36 43.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3a32db-7fed-4c16-93f2-60d3a3a0e59c")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.1622) (xy 77.47 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb8dc53-71c0-4019-9f42-077562f07e41")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.2422) (xy 200.66 58.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a5064a-1dba-4446-bde8-501e47e39332")
+	)
+	(wire
+		(pts
+			(xy 222.25 232.2322) (xy 250.19 232.2322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cb263c-375f-4534-93d4-27ecaf05879f")
+	)
+	(wire
+		(pts
+			(xy 298.45 140.7922) (xy 290.83 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340e07fd-45ee-4d1b-94f1-b47bdf8de28a")
+	)
+	(wire
+		(pts
+			(xy 322.58 156.0322) (xy 335.28 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ced75e-16be-4edb-b055-10faa03690ce")
+	)
+	(wire
+		(pts
+			(xy 316.23 210.6422) (xy 316.23 214.4522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363fed95-4f42-42b2-a0a2-635a259a15c5")
+	)
+	(wire
+		(pts
+			(xy 351.79 181.4322) (xy 351.79 178.8922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3763b458-0531-413c-8b22-aed7c84309e1")
+	)
+	(wire
+		(pts
+			(xy 46.99 79.8322) (xy 46.99 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa52729-6152-49c3-9a6d-7c9aa68b975e")
+	)
+	(wire
+		(pts
+			(xy 334.01 210.6422) (xy 351.79 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd81e71-9710-4216-9c15-ea1db979cbf1")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.1622) (xy 62.23 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2ef2a5-0854-4f38-b93e-d330dd922f23")
+	)
+	(polyline
+		(pts
+			(xy 373.38 116.6622) (xy 373.38 252.5522)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3d9faaf5-39c8-4de8-9e9b-fba88b6fa4ec")
+	)
+	(wire
+		(pts
+			(xy 76.2 59.5122) (xy 62.23 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407e5a58-a276-4f5b-8b40-9b1b6bf81a2e")
+	)
+	(polyline
+		(pts
+			(xy 238.76 30.3022) (xy 238.76 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "43b9a58f-901b-4b06-9f7b-fcdb89d920de")
+	)
+	(wire
+		(pts
+			(xy 298.45 161.1122) (xy 298.45 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441f39c6-52e5-47c8-b2dc-d51dfbebde9b")
+	)
+	(wire
+		(pts
+			(xy 312.42 153.4922) (xy 312.42 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b1314c-7ee1-4de7-9998-e8ab79618961")
+	)
+	(wire
+		(pts
+			(xy 316.23 197.9422) (xy 316.23 199.2122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44de009c-013f-4efa-a018-5ee81a1a2d2b")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.7822) (xy 213.36 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45070dc8-d5e7-438f-99ca-de634c3cd093")
+	)
+	(wire
+		(pts
+			(xy 190.5 173.8122) (xy 190.5 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f57d64-2748-4b09-8a80-30db7914f907")
+	)
+	(wire
+		(pts
+			(xy 68.58 79.8322) (xy 46.99 79.8322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f79b36-1619-4349-9fd3-b6c349e5059b")
+	)
+	(wire
+		(pts
+			(xy 290.83 161.1122) (xy 298.45 161.1122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496e78b7-3c5f-4138-ac45-c6394eceb66a")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.5122) (xy 76.2 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4cd9af-5ad7-42ef-81fd-51588a264108")
+	)
+	(wire
+		(pts
+			(xy 294.64 224.6122) (xy 294.64 227.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bec56ac-0f9d-4ff5-9edd-33b2e1b5662d")
+	)
+	(wire
+		(pts
+			(xy 342.9 187.7822) (xy 342.9 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c01ac75-54a0-49b4-81ff-61b802f67bec")
+	)
+	(wire
+		(pts
+			(xy 190.5 187.7822) (xy 200.66 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d48b3e3-1b61-438b-9359-2bcf797f02ad")
+	)
+	(wire
+		(pts
+			(xy 294.64 229.6922) (xy 294.64 230.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f628ae1-278d-4e21-8ef6-79b02c74cb4c")
+	)
+	(wire
+		(pts
+			(xy 322.58 158.5722) (xy 322.58 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d0d8a0-8078-45e8-aeb4-527e968df6c0")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.3422) (xy 90.17 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e64409-bcd6-4eef-97c9-06ce3d0223d4")
+	)
+	(wire
+		(pts
+			(xy 334.01 210.6422) (xy 334.01 206.8322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b30e3-b628-4d3f-af1d-8b7bb8dbb3be")
+	)
+	(wire
+		(pts
+			(xy 350.52 53.1622) (xy 350.52 43.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ab3106-7e5a-4b09-84ed-f6b85ad89307")
+	)
+	(wire
+		(pts
+			(xy 294.64 227.1522) (xy 294.64 229.6922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5361cb44-8d43-405d-8a63-cde6f655e3db")
+	)
+	(wire
+		(pts
+			(xy 317.5 53.1622) (xy 330.2 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e4ddb1-3393-461e-83bc-5456e94f9c7a")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.2122) (xy 76.2 72.2122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5517a3f9-2456-45e0-be2b-3050f6cd67aa")
+	)
+	(wire
+		(pts
+			(xy 200.66 187.7822) (xy 200.66 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5761e24d-92fa-40e8-902a-355663eb1ec3")
+	)
+	(wire
+		(pts
+			(xy 290.83 143.3322) (xy 298.45 143.3322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d0b0b4-98f0-4fb6-9e38-99d8bceab68e")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.1922) (xy 92.71 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595d690f-f0c0-4fb6-b67b-c76581e4880c")
+	)
+	(wire
+		(pts
+			(xy 190.5 181.4322) (xy 190.5 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf447f8-119a-44b7-bcc8-38d133543111")
+	)
+	(wire
+		(pts
+			(xy 351.79 178.8922) (xy 290.83 178.8922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ceeced0-bc74-4ee5-8473-5ca6d865c210")
+	)
+	(wire
+		(pts
+			(xy 340.36 43.0022) (xy 340.36 45.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d94fac3-c56f-4059-847d-a3eb1e8586b9")
+	)
+	(wire
+		(pts
+			(xy 175.26 135.7122) (xy 175.26 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5012f8-8abf-4920-8bfe-fc20f5a85aca")
+	)
+	(wire
+		(pts
+			(xy 335.28 45.5422) (xy 335.28 43.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603be32f-718b-4597-840d-24140d2ccaa6")
+	)
+	(polyline
+		(pts
+			(xy 256.54 30.3022) (xy 370.84 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6410216d-9688-4bf4-878f-e424744c4d5b")
+	)
+	(wire
+		(pts
+			(xy 316.23 197.9422) (xy 316.23 183.9722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b8bd92-3394-4ea0-892b-d55b95b52194")
+	)
+	(wire
+		(pts
+			(xy 243.84 229.6922) (xy 243.84 227.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c861f2-9c49-4317-a52f-d4732a50f273")
+	)
+	(wire
+		(pts
+			(xy 322.58 166.1922) (xy 322.58 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6cd260-12e6-4c28-808c-3e8695136a47")
+	)
+	(wire
+		(pts
+			(xy 316.23 210.6422) (xy 334.01 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734d5423-2e56-4aa6-8e4e-448f0e66b504")
+	)
+	(wire
+		(pts
+			(xy 66.04 98.8822) (xy 66.04 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a55f5d-3720-40da-af81-4671ada81c01")
+	)
+	(polyline
+		(pts
+			(xy 114.3 114.1222) (xy 30.48 114.1222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "75c78ead-e509-43a6-bb4f-51fbd4a80c34")
+	)
+	(wire
+		(pts
+			(xy 335.28 60.7822) (xy 335.28 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76057aeb-d347-496e-9e34-e801051cddcd")
+	)
+	(polyline
+		(pts
+			(xy 373.38 252.5522) (xy 165.1 252.5522)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "76582f50-49b4-433b-88cc-9358537ccb03")
+	)
+	(wire
+		(pts
+			(xy 219.71 211.9122) (xy 250.19 211.9122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d05a52-877a-49ff-a41f-16a5212a0483")
+	)
+	(wire
+		(pts
+			(xy 317.5 55.7022) (xy 317.5 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c6ea96-6391-4252-aae6-afa9fe5a9606")
+	)
+	(wire
+		(pts
+			(xy 335.28 150.9522) (xy 335.28 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c097c3b-9197-42ec-9395-6d2b9eddbd1c")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.0522) (xy 62.23 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0b6136-47fa-424e-9242-9385028d4c39")
+	)
+	(wire
+		(pts
+			(xy 298.45 176.3522) (xy 298.45 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db181a1-9a64-4dbc-a1f8-423d8a499adf")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.2422) (xy 177.8 58.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb6f38e-fa3c-4fa3-9d46-9af5f7d83a4a")
+	)
+	(wire
+		(pts
+			(xy 360.68 187.7822) (xy 360.68 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8027a3b0-4d2f-4cc3-a370-87d6b11ba7ee")
+	)
+	(polyline
+		(pts
+			(xy 256.54 93.8022) (xy 256.54 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8122f282-4e56-427d-a6de-ed1056e00bf8")
+	)
+	(wire
+		(pts
+			(xy 342.9 181.4322) (xy 334.01 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812df22d-411a-4586-86c5-f0f45108bc58")
+	)
+	(wire
+		(pts
+			(xy 309.88 197.9422) (xy 316.23 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852ff6a7-a4e5-4f9d-8f35-5fad9f2959a6")
+	)
+	(wire
+		(pts
+			(xy 312.42 153.4922) (xy 321.31 153.4922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a6a2e0-da90-412f-aa99-e24ba1856846")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.1822) (xy 76.2 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bb33ca-4199-40d9-a7d2-54c5a5cbc042")
+	)
+	(wire
+		(pts
+			(xy 290.83 176.3522) (xy 298.45 176.3522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8b7943-327b-4873-b85a-8f6b25d31c50")
+	)
+	(wire
+		(pts
+			(xy 68.58 79.8322) (xy 68.58 86.1822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd89aa2-e3c0-4b13-8449-e7b59f9172cb")
+	)
+	(wire
+		(pts
+			(xy 335.28 63.3222) (xy 340.36 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1eb0a9-4b32-4c88-b591-fa430595ab7c")
+	)
+	(wire
+		(pts
+			(xy 299.72 53.1622) (xy 294.64 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e0f853-479f-44be-b14f-758672483518")
+	)
+	(wire
+		(pts
+			(xy 175.26 175.0822) (xy 175.26 178.8922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920523c8-528a-4978-9ef4-4d152f61e1a3")
+	)
+	(wire
+		(pts
+			(xy 81.28 98.8822) (xy 81.28 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92276afe-7654-49fe-8424-e88eaadf8908")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.7022) (xy 177.8 55.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f35fb8-8c61-4c64-92db-0c1239259e47")
+	)
+	(wire
+		(pts
+			(xy 350.52 63.3222) (xy 350.52 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d3913a-07fb-4af5-a48b-266e0629ff72")
+	)
+	(wire
+		(pts
+			(xy 350.52 53.1622) (xy 358.14 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962956f9-ac63-4648-b57b-f2e0c0f2fdb0")
+	)
+	(wire
+		(pts
+			(xy 294.64 219.5322) (xy 294.64 222.0722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a3d2c9-8edc-44a9-acbb-0a38fd748133")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.5122) (xy 46.99 79.8322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf90582-a88a-406a-991b-2015b3d1bfc3")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.1622) (xy 177.8 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd1ec36-377e-493b-ba5b-798067c33deb")
+	)
+	(polyline
+		(pts
+			(xy 30.48 114.1222) (xy 30.48 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9d22ea90-ddc2-42e2-b30c-87abcdf7e2d8")
+	)
+	(wire
+		(pts
+			(xy 335.28 156.0322) (xy 341.63 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8231fa-94f8-42e4-ab78-f58f62676539")
+	)
+	(wire
+		(pts
+			(xy 334.01 181.4322) (xy 290.83 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4123d9-3a3d-4666-bfd5-4364db34887b")
+	)
+	(polyline
+		(pts
+			(xy 165.1 252.5522) (xy 165.1 116.6622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a4266ea0-34a7-4cf5-93a1-023e4761a9ba")
+	)
+	(wire
+		(pts
+			(xy 298.45 143.3322) (xy 298.45 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a99b26-760f-4bd1-8dd6-78ea283587f0")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.0422) (xy 81.28 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cef133-6609-4fc8-a6a9-8f1d9641eef9")
+	)
+	(wire
+		(pts
+			(xy 250.19 140.7922) (xy 229.87 140.7922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a831b3ab-8b6e-4188-8349-98215defe00a")
+	)
+	(wire
+		(pts
+			(xy 290.83 153.4922) (xy 312.42 153.4922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91aec3c-253b-4830-a699-7cfd802c3017")
+	)
+	(wire
+		(pts
+			(xy 350.52 43.0022) (xy 340.36 43.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4ccb3d-92d5-4ac2-9e6d-60ef8059d8f7")
+	)
+	(wire
+		(pts
+			(xy 335.28 140.7922) (xy 335.28 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9dc9a3-7e0e-4b24-963a-6b102f1b75c8")
+	)
+	(wire
+		(pts
+			(xy 358.14 53.1622) (xy 358.14 55.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae64e024-2209-41a4-9a95-00819bc5ef1d")
+	)
+	(wire
+		(pts
+			(xy 341.63 156.0322) (xy 341.63 145.8722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cf383e-b5bd-4759-9c6e-2040c4ee355b")
+	)
+	(wire
+		(pts
+			(xy 175.26 167.4622) (xy 175.26 166.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20be288-99c2-4c62-87e4-e3e48bc0ee3a")
+	)
+	(polyline
+		(pts
+			(xy 238.76 81.1022) (xy 154.94 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b299d59b-4f27-4be0-9bb7-eab21ddd8227")
+	)
+	(wire
+		(pts
+			(xy 175.26 166.1922) (xy 175.26 162.3822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41042ab-e1b6-497c-88e3-51cfaeb510a7")
+	)
+	(wire
+		(pts
+			(xy 317.5 67.1322) (xy 317.5 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95d09ee-2cf2-40f5-983c-4f5a3e30df7a")
+	)
+	(wire
+		(pts
+			(xy 250.19 156.0322) (xy 233.68 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b968a153-1125-4bbd-b595-05779f184f53")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.0422) (xy 66.04 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4e98ca-4123-4d9b-bd8c-7d5894598b50")
+	)
+	(wire
+		(pts
+			(xy 250.19 229.6922) (xy 243.84 229.6922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed8869a-bd9d-4789-a342-604856e87f21")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.1922) (xy 62.23 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff05f94-36ba-423a-a99d-fc8359d306d3")
+	)
+	(wire
+		(pts
+			(xy 250.19 145.8722) (xy 233.68 145.8722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b3931d-bcbb-4bf7-868c-a0655c8dd97b")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.1922) (xy 46.99 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c152ec83-603b-4683-8179-b47e5bc6b733")
+	)
+	(wire
+		(pts
+			(xy 294.64 216.9922) (xy 294.64 219.5322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41f5c4a-02dd-4228-81b2-558a933155c4")
+	)
+	(polyline
+		(pts
+			(xy 30.48 30.3022) (xy 114.3 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c4567e4d-bc38-4823-8141-2ec0ed4f9769")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.5122) (xy 46.99 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bee7bf-9795-44cc-b511-13894a09d613")
+	)
+	(wire
+		(pts
+			(xy 77.47 43.0022) (xy 77.47 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62f6546-ba43-4af3-b047-811e4917046e")
+	)
+	(wire
+		(pts
+			(xy 314.96 53.1622) (xy 317.5 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dd58a3-ae7c-49ef-bf91-c967ec2bd60f")
+	)
+	(polyline
+		(pts
+			(xy 370.84 93.8022) (xy 256.54 93.8022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cb7f4c01-5352-49f6-9898-af6de891158a")
+	)
+	(wire
+		(pts
+			(xy 190.5 171.2722) (xy 190.5 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc58494f-0571-471c-b486-f4a7af034e7e")
+	)
+	(polyline
+		(pts
+			(xy 370.84 30.3022) (xy 370.84 93.8022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cc595fce-05e5-4314-b8d6-f59d152221bb")
+	)
+	(wire
+		(pts
+			(xy 290.83 216.9922) (xy 294.64 216.9922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddf6419-75ab-4308-9a8b-0e8530533947")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.6522) (xy 46.99 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3b7ecc-c394-4ce9-9996-3ab5e9cbbf64")
+	)
+	(wire
+		(pts
+			(xy 250.19 168.7322) (xy 245.11 168.7322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf49c637-df92-4fe8-bd8b-6608c846eeac")
+	)
+	(wire
+		(pts
+			(xy 250.19 143.3322) (xy 229.87 143.3322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01f2597-1942-43e1-b82c-bf7211acad24")
+	)
+	(wire
+		(pts
+			(xy 46.99 96.3422) (xy 66.04 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0431a55-c5a0-4a31-8558-b7a5413d245e")
+	)
+	(wire
+		(pts
+			(xy 340.36 63.3222) (xy 350.52 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d212ccb0-ca69-48be-a214-8a01c55919bd")
+	)
+	(wire
+		(pts
+			(xy 250.19 153.4922) (xy 233.68 153.4922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3afe517-f732-4efe-b3ea-cf495f24a58f")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.0422) (xy 81.28 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d485cf-08eb-4bb8-99e2-1f031f67c73a")
+	)
+	(wire
+		(pts
+			(xy 360.68 181.4322) (xy 351.79 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4342433-c7d5-466f-8ded-328e6b5d2d2d")
+	)
+	(wire
+		(pts
+			(xy 316.23 183.9722) (xy 290.83 183.9722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64004d4-d0c6-41b9-ad4b-1b9b9e5c84af")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.0422) (xy 66.04 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6838399-9a7a-4a30-ae3e-42c3bc14a8fe")
+	)
+	(wire
+		(pts
+			(xy 290.83 229.6922) (xy 294.64 229.6922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79e1bc8-d2fe-4ef0-bea5-b28b880f625c")
+	)
+	(wire
+		(pts
+			(xy 290.83 227.1522) (xy 294.64 227.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7aa08b1-5ad3-4fba-a459-89e9d1e674d1")
+	)
+	(wire
+		(pts
+			(xy 190.5 187.7822) (xy 190.5 197.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debaa112-d0d8-4ee5-a2bb-8796ab693c67")
+	)
+	(wire
+		(pts
+			(xy 290.83 156.0322) (xy 322.58 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d08105-2724-4451-8bcf-b02ebe9ffd71")
+	)
+	(wire
+		(pts
+			(xy 321.31 153.4922) (xy 321.31 143.3322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f2483c-9a81-4216-95ee-fd26ec1177bd")
+	)
+	(wire
+		(pts
+			(xy 351.79 199.2122) (xy 351.79 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e466d0-74b9-4eb3-b544-af65a13679aa")
+	)
+	(wire
+		(pts
+			(xy 180.34 63.3222) (xy 177.8 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a11ded-a398-48cb-ae7e-1530092a20f3")
+	)
+	(polyline
+		(pts
+			(xy 165.1 116.6622) (xy 373.38 116.6622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e6981bb5-74f2-4473-9ac4-9beccc46862b")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.0022) (xy 62.23 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e3ad0b-5faf-412d-9200-6e0f4a66f0a3")
+	)
+	(polyline
+		(pts
+			(xy 154.94 30.3022) (xy 238.76 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e7e13352-9a9a-4832-bb13-c724a9e49aab")
+	)
+	(wire
+		(pts
+			(xy 294.64 55.7022) (xy 294.64 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b7dd9f-b9be-4274-8470-dadad2e8595b")
+	)
+	(wire
+		(pts
+			(xy 250.19 148.4122) (xy 233.68 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed51ce95-6695-4f75-b2cf-9ee8987619ee")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.0522) (xy 76.2 59.5122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed689bd2-800c-44f3-913d-79470347536a")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.1922) (xy 77.47 39.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed956206-9a08-4a51-a950-828788b0bee0")
+	)
+	(wire
+		(pts
+			(xy 294.64 211.9122) (xy 294.64 214.4522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee425ed2-0111-4ce3-8ce5-acc5db1980dc")
+	)
+	(wire
+		(pts
+			(xy 351.79 210.6422) (xy 351.79 206.8322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15e3c00-a06e-4a22-8cfb-3691cf28a8bb")
+	)
+	(wire
+		(pts
+			(xy 290.83 209.3722) (xy 294.64 209.3722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c394e9-d297-41b3-9860-ceb7bd574827")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.1622) (xy 62.23 50.6222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3793dc5-5ddc-4ac7-9e0f-9a8463effaf3")
+	)
+	(polyline
+		(pts
+			(xy 154.94 81.1022) (xy 154.94 30.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f874c9e6-2bc2-4ff5-98a8-48cab507566c")
+	)
+	(wire
+		(pts
+			(xy 294.64 53.1622) (xy 266.7 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88ccb05-8848-4fa9-891c-d711d009cd89")
+	)
+	(polyline
+		(pts
+			(xy 114.3 30.3022) (xy 114.3 114.1222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f892875a-296e-4e1f-8260-1dd3963ff402")
+	)
+	(wire
+		(pts
+			(xy 250.19 209.3722) (xy 245.11 209.3722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b1ef14-15b7-4b80-b7f4-84df2bd8cec5")
+	)
+	(wire
+		(pts
+			(xy 298.45 163.6522) (xy 290.83 163.6522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cc33d6-55d0-4af5-8a4e-709b38ebd233")
+	)
+	(wire
+		(pts
+			(xy 334.01 199.2122) (xy 334.01 181.4322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5b032c-f021-4069-b73c-76944d7f761d")
+	)
+	(wire
+		(pts
+			(xy 360.68 205.5622) (xy 360.68 203.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4e31c1-1afb-4913-8850-b09c0bd85b49")
+	)
+	(wire
+		(pts
+			(xy 200.66 171.2722) (xy 190.5 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9cb941-c76d-492c-a8dd-1fa8affdab0d")
+	)
+	(wire
+		(pts
+			(xy 294.64 214.4522) (xy 294.64 216.9922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd80fcfe-f889-4b8a-b82c-bb26709af628")
+	)
+	(wire
+		(pts
+			(xy 180.34 48.0822) (xy 180.34 55.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe50522f-de33-4fe0-804f-b0d1be3ba02e")
+	)
+	(wire
+		(pts
+			(xy 294.64 209.3722) (xy 294.64 211.9122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a215c-2dce-40fb-82d9-7746dd2683ba")
+	)
+	(text "MULTIPROTOCOL LPWAN 32-BIT ARM MICROCONTROLLER"
+		(exclude_from_sim no)
+		(at 165.1 115.3922 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eebc2c8-0f7a-465f-955b-1b563edd2b52")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 154.94 30.3022 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b340e349-5e81-4e85-bb10-686974347b40")
+	)
+	(text "RF FILTER / SWITCH / ANTENNA CONNECTOR"
+		(exclude_from_sim no)
+		(at 256.54 30.3022 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf52be9c-aef2-4fc5-aa27-984b163af89d")
+	)
+	(text "POWER SUPPLY DECOUPLING"
+		(exclude_from_sim no)
+		(at 31.75 30.3022 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2f237e0-a747-4f29-aba3-9a44973ac861")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 323.088 269.5702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1acceb5-0c53-4d61-b966-dfcaf1880034")
+	)
+	(label "VDDA"
+		(at 234.95 145.8722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "050b5fe4-cc68-4f5d-8c4e-a47f9fc39dd9")
+	)
+	(label "VDDA"
+		(at 86.36 96.3422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05310245-95e3-47dd-93d6-76dd3dcab890")
+	)
+	(label "T_SWCLK"
+		(at 203.2 60.7822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "125543ff-0f6c-4a82-a5f8-342cb0da5d90")
+	)
+	(label "VBAT"
+		(at 85.09 79.8322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e06471b-b153-43af-aa0d-33bfc2a6a268")
+	)
+	(label "RF_Output"
+		(at 223.52 232.2322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29845e25-7d33-4e46-ab47-7031979407f3")
+	)
+	(label "VDDA"
+		(at 85.09 59.5122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e6ca14f-4882-450d-9f94-7d3bf81597c7")
+	)
+	(label "T_SWCLK"
+		(at 232.41 143.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1899ea-d604-47d2-b79c-d68a659ba853")
+	)
+	(label "VREF+"
+		(at 86.36 39.1922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61666887-38df-454c-ae3e-2e335b1497a8")
+	)
+	(label "T_SWDIO"
+		(at 203.2 58.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af6a95a-99f8-4711-8ac3-51429d54882c")
+	)
+	(label "VBAT"
+		(at 234.95 148.4122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72c710ca-e214-4335-9d53-cfa2a8cea478")
+	)
+	(label "VREF+"
+		(at 233.68 153.4922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c45120-a041-4e16-9aad-14a34addeac4")
+	)
+	(label "RF_Output"
+		(at 269.24 53.1622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beb4267d-2f0a-4212-a17d-c72ae989569f")
+	)
+	(label "VDDA"
+		(at 233.68 156.0322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d77189c6-dd10-45f9-9ef4-b92c1ed1acab")
+	)
+	(label "T_SWDIO"
+		(at 232.41 140.7922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ae0bf1-aff3-4c64-a000-5256c3c44873")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 341.63 145.8722 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ca5037d-59c3-46c4-af0e-da950e941c65")
+	)
+	(hierarchical_label "NRST"
+		(shape output)
+		(at 185.42 53.1622 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d2e61e-31a2-4208-b26a-95380257f646")
+	)
+	(hierarchical_label "LoRa_TX"
+		(shape output)
+		(at 219.71 211.9122 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a83feb8-5d22-4804-8468-f15bc95553da")
+	)
+	(hierarchical_label "LoRa_RX"
+		(shape input)
+		(at 219.71 214.4522 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dec24630-9247-450a-9b2b-045342bf54d0")
+	)
+	(hierarchical_label "BOOT_STM32"
+		(shape input)
+		(at 321.31 143.3322 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f280b3c1-708a-4297-9e3b-14774b9078e1")
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 358.14 55.7022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02647e50-c74e-4590-a573-5869b8e5a9fc")
+		(property "Reference" "#PWR?"
+			(at 358.14 55.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 62.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 55.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 55.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 55.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b9715710-f975-4828-b61f-cfb151c91230")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 175.26 135.7122 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b769d7c-a00a-4b16-9da4-4efb914a9205")
+		(property "Reference" "#PWR?"
+			(at 175.26 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 131.9022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "77059b3c-558e-4960-bfed-e81244d8d41c")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_2_L-US0603")
+		(at 360.68 195.4022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e4336aa-fb1b-41a1-9ec8-83ae99ad90d7")
+		(property "Reference" "L5"
+			(at 361.442 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ferrite bead 0603"
+			(at 359.41 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L0603"
+			(at 360.68 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "YI160808U121-2R5T"
+			(at 359.41 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "120 ohm"
+			(at 361.95 191.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YJYCOIN"
+			(at 359.41 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Inductor"
+			(at 359.41 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07ac3554-9625-465e-86bd-ae814dede842")
+		)
+		(pin "1"
+			(uuid "50e88b16-46ba-4c6c-9388-c0766dcf6f02")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 62.23 45.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15e56ae5-d14d-4ce2-9482-f52d95cb45f8")
+		(property "Reference" "C9"
+			(at 64.262 50.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 64.008 50.4952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 62.23 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A105KA5NQNC"
+			(at 60.198 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 64.77 44.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 60.198 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 60.198 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6616540a-6e43-44cf-881a-b0a4c04f89aa")
+		)
+		(pin "2"
+			(uuid "368fa459-71f4-458f-bec8-bb1eab88bdc9")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_L-US0805")
+		(at 224.79 171.2722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "173d980b-2b3e-48d2-9832-aaa2784025ca")
+		(property "Reference" "L3"
+			(at 219.71 174.5742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 216.662 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L0805"
+			(at 224.79 171.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 171.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 171.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "MLZ2012M150WTD25"
+			(at 216.662 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "15uH"
+			(at 216.662 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "TDK"
+			(at 216.662 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Inductor"
+			(at 216.662 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e07c039-094c-48e2-866c-a3075adc0850")
+		)
+		(pin "1"
+			(uuid "61e3ace3-de0a-4c77-97e1-3e6fd188ded2")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 180.34 70.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e93b9a6-eb96-4a7e-9b63-28d22fe50ca7")
+		(property "Reference" "#PWR?"
+			(at 180.34 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 77.2922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dd44d966-24f5-48c9-9b5d-35ac2f4a433c")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_2_C-EUC0402")
+		(at 294.64 60.7822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f233696-1ca7-479d-932d-6cb009a9a1b4")
+		(property "Reference" "C11"
+			(at 296.672 63.0682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 292.862 55.8292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 294.64 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "GRM1555C1H3R3WA01D"
+			(at 292.608 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.3pF"
+			(at 285.75 58.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Murata"
+			(at 292.608 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 292.608 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4d5f6f-a228-47c2-98e0-f10db6cf4e31")
+		)
+		(pin "2"
+			(uuid "8770cb6e-8da3-4724-bc91-ef0095519b71")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 87.63 72.2122 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21428381-1388-4e21-94d2-980d5a4334b9")
+		(property "Reference" "#PWR?"
+			(at 87.63 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 72.2122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "21385afc-8ad7-48d0-8452-7d4202c91d73")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 312.42 128.0922 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "223edb76-317c-4f88-af56-5d17b1e6f56b")
+		(property "Reference" "#PWR?"
+			(at 312.42 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 312.42 124.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "446cb961-7f16-4838-9785-8ec20b006ee3")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_C-EUC0402")
+		(at 71.12 86.1822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22c12aa9-de58-42df-bd05-334a0c1e9fe1")
+		(property "Reference" "C15"
+			(at 70.866 90.7542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 76.073 84.4042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 71.12 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A105KA5NQNC"
+			(at 68.072 84.1502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 74.93 84.9122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 68.072 84.1502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 68.072 84.1502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18e32105-e266-4d31-b5d2-02458bb6bc07")
+		)
+		(pin "2"
+			(uuid "a631b277-7caa-4d9d-9d50-86a6cc31b711")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 298.45 140.7922 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26cb0358-2ba2-4787-9677-745e8dd9c9e7")
+		(property "Reference" "#PWR?"
+			(at 298.45 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 140.7922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "584a76fe-6421-4bfe-b515-d625004f9fa3")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 245.11 209.3722 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bc67829-5665-4238-8b4a-a24d914f4666")
+		(property "Reference" "#PWR?"
+			(at 245.11 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 209.3722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1c22406d-29a6-45e6-8564-2e3edb0f8fef")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_SMACONNECTOR_EDGE_UFL")
+		(at 337.82 53.1622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c7eaa89-8588-43b7-8f13-9fd550cb0755")
+		(property "Reference" "JX1"
+			(at 343.154 52.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMACONNECTOR_EDGE_UFL"
+			(at 345.44 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMA_EDGELAUNCH_UFL"
+			(at 337.82 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "SMA-J-P-H-ST-EM1"
+			(at 329.692 45.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 329.692 45.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "SAMTECH"
+			(at 329.692 45.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Connector"
+			(at 329.692 45.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "GND@3"
+			(uuid "a42ee49a-5343-4857-ad58-1853e797db22")
+		)
+		(pin "GND@1"
+			(uuid "79152425-674c-4bcc-8968-d29411f2a51f")
+		)
+		(pin "GND@2"
+			(uuid "259d8380-26ae-469d-af10-810e7f266b3e")
+		)
+		(pin "P"
+			(uuid "6154ab1b-a0fc-4df6-811a-42d378ba8f5b")
+		)
+		(pin "GND@4"
+			(uuid "23cfc430-8acb-42a4-95b8-be78217f19b4")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "JX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 360.68 205.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386a3d0c-142a-426c-9664-9b1f3a6b527c")
+		(property "Reference" "#PWR?"
+			(at 360.68 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 360.68 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fc386471-e81a-4410-8d45-c98bc6303123")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 180.34 48.0822 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38c1534b-88f0-4900-adbd-08a6b2212a8e")
+		(property "Reference" "#PWR?"
+			(at 180.34 48.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 180.34 44.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 48.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 48.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 48.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad3220cd-169e-4743-be77-e1c0130f24d2")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 83.82 109.0422 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a98ff0d-0b2d-4ba2-9912-ea6e3aa1e0c4")
+		(property "Reference" "#PWR?"
+			(at 83.82 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 109.0422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1e4f2ac4-ed4d-4eb3-be4a-5db3aed4c882")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 342.9 205.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4656b2a5-5137-4c8b-9d8e-77a703fab684")
+		(property "Reference" "#PWR?"
+			(at 342.9 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 342.9 209.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 205.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f935bbdf-d969-4ad5-ae2c-08722eabfcb8")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 351.79 201.7522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "466b9c64-e252-4def-b8d9-bbbd155821cb")
+		(property "Reference" "C24"
+			(at 353.822 206.5782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 353.568 206.7052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 351.79 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A105KA5NQNC"
+			(at 349.758 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 351.79 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 349.758 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 349.758 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b114d87-3332-4fef-a920-32ca2871d58b")
+		)
+		(pin "2"
+			(uuid "335fa1e8-a008-4508-b300-478290193368")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 309.88 197.9422 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48234537-b379-4590-a512-d97b366998c4")
+		(property "Reference" "#PWR?"
+			(at 309.88 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 306.07 197.9422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "76314da3-b8cc-4397-8560-2c8f994a0f48")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_L-US0402")
+		(at 307.34 53.1622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa904df-7987-4839-80ff-a9001e823aec")
+		(property "Reference" "L1"
+			(at 302.26 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ferrite bead 0402"
+			(at 299.212 51.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L0402 - rounded"
+			(at 307.34 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "LQW15AN8N7G00D"
+			(at 299.212 51.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "8.7 nH"
+			(at 299.212 51.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Murata"
+			(at 299.212 51.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Inductor"
+			(at 299.212 51.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c135ca11-6f4f-4489-980d-5106a0ebfe4b")
+		)
+		(pin "1"
+			(uuid "b6af48bd-ca08-4918-9a17-c21e21bde9ba")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 294.64 65.8622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc246f9-8370-4728-a7c7-09d5df1c457e")
+		(property "Reference" "#PWR?"
+			(at 294.64 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "061d9a72-d8a2-4cc8-8734-f54d597713fc")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 316.23 201.7522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50af72e9-4d63-4a6a-be82-14c9dfe52a33")
+		(property "Reference" "C22"
+			(at 318.262 206.5782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 318.008 206.7052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 316.23 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 314.198 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 317.5 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 314.198 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 314.198 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e96a9bd-efce-45e9-a532-af1266a2ba2d")
+		)
+		(pin "2"
+			(uuid "48df5a9a-f589-4c3d-a1fe-2441db3668d8")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 175.26 178.8922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57711c53-9c8e-414d-9457-4731d40ce3c7")
+		(property "Reference" "#PWR?"
+			(at 175.26 178.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 178.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 178.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 178.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0e3dba41-3509-4ec5-b260-8ec39e354206")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 46.99 36.6522 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "593d59c4-9099-49e7-a0eb-a1943aea4b49")
+		(property "Reference" "#PWR?"
+			(at 46.99 36.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 46.99 32.8422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 36.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 36.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 36.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "420f38b8-7170-49f1-a9a9-75e503963667")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 82.55 53.1622 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e70a12-b9e6-452d-84c6-f97d3a1f7f45")
+		(property "Reference" "#PWR?"
+			(at 82.55 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 53.1622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f0d80b1-21eb-4f6a-bf22-4970f51da67e")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 316.23 214.4522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61bb094a-833d-4bc4-af6c-6188d46b44ef")
+		(property "Reference" "#PWR?"
+			(at 316.23 214.4522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 220.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 214.4522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 214.4522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 214.4522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ab183da8-44a7-4987-abff-128a939bf082")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_R-US_R0402")
+		(at 335.28 145.8722 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6825c651-87e2-45d3-a2c3-f0c7e72ac7b0")
+		(property "Reference" "R9"
+			(at 336.55 148.1582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-US_R0402"
+			(at 338.836 149.4282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 335.28 145.8722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 145.8722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 145.8722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "RC0402FR-0710KL"
+			(at 334.01 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k"
+			(at 330.2 143.3322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YAGEO"
+			(at 334.01 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Resistor"
+			(at 334.01 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be32b87a-af57-4ef5-98c5-60173ea82c80")
+		)
+		(pin "1"
+			(uuid "17b2dda4-242b-4673-b06c-8a11c6dff4cb")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_2_C-EUC0402")
+		(at 317.5 60.7822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "685384cf-86a3-4357-8601-16e747c97a0a")
+		(property "Reference" "C12"
+			(at 319.532 63.0682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 315.722 55.8292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 317.5 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 60.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "GRM1555C1H3R3WA01D"
+			(at 315.468 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3.3pF"
+			(at 308.61 58.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Murata"
+			(at 315.468 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 315.468 55.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1115e5a-bcc2-4f9d-b5c9-3f79fefcd020")
+		)
+		(pin "2"
+			(uuid "2f166036-c0a1-4e36-b6a0-725b88ae17da")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 335.28 139.5222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c5cd2c4-770a-48ba-a7f3-83192dbcfab7")
+		(property "Reference" "#PWR?"
+			(at 335.28 139.5222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 335.28 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 139.5222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 139.5222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 139.5222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0f7d9c80-1724-4b6e-bdea-fb90a34096c6")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 298.45 161.1122 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71c21554-e561-4724-befe-6e1fb34f53fd")
+		(property "Reference" "#PWR?"
+			(at 298.45 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 161.1122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "db693da7-ec6c-4036-923e-bad821b52d98")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 299.72 186.5122 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74831bb8-ba5a-4703-948e-57c9ae3b7ce7")
+		(property "Reference" "#PWR?"
+			(at 299.72 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 186.5122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 186.5122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a63677a7-498d-4282-9983-80a87c78984a")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 190.5 197.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74a902a2-6478-4ec0-a0cc-fe07601470e3")
+		(property "Reference" "#PWR?"
+			(at 190.5 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 204.2922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 197.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "30f0bb66-75de-4920-a4f9-f475a0ddceb7")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 322.58 170.0022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7717b005-10db-4603-9341-81fd6ee39f28")
+		(property "Reference" "#PWR?"
+			(at 322.58 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1c8dc692-9985-40cb-a36b-0d05822323ae")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 175.26 170.0022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79df0e47-5d4d-41b5-b77f-4d2ac7193a2a")
+		(property "Reference" "C19"
+			(at 177.292 174.8282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 177.038 174.9552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 175.26 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 173.228 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 167.64 178.8922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 173.228 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 173.228 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2588f1f6-30e1-437e-b1f4-d6f2ce41cae4")
+		)
+		(pin "2"
+			(uuid "aee133f1-4221-411a-80c7-a8f8b938fbf3")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 322.58 161.1122 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c7cf2e7-52e7-46df-a866-559b868737dc")
+		(property "Reference" "C18"
+			(at 324.612 165.9382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 324.358 166.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 322.58 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 320.548 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 325.12 161.1122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 320.548 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 320.548 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a73d4bb-c739-4b1e-8946-a3953c624213")
+		)
+		(pin "2"
+			(uuid "41effc35-2fcd-4764-b768-754ba05c329e")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_R-US_R0402")
+		(at 312.42 142.0622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89f2141d-1180-4c6c-a564-da8decf9c597")
+		(property "Reference" "R8"
+			(at 313.69 144.3482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-US_R0402"
+			(at 315.976 145.6182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 312.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "RC0402FR-0710KL"
+			(at 311.15 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k"
+			(at 313.69 138.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YAGEO"
+			(at 311.15 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Resistor"
+			(at 311.15 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9aca9883-c90b-40bb-9088-0ab9d0faba1a")
+		)
+		(pin "1"
+			(uuid "7e349122-5e72-49a4-b4f5-2c73c339c036")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_1_R-US_R0402")
+		(at 200.66 45.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "933b170a-05e1-43d0-aff7-a62ece4947b2")
+		(property "Reference" "R7"
+			(at 201.93 47.8282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-US_R0402"
+			(at 204.216 49.0982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R0402"
+			(at 200.66 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "RC0402FR-0710KL"
+			(at 199.39 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k"
+			(at 203.2 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YAGEO"
+			(at 199.39 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Resistor"
+			(at 199.39 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a601fade-0f5e-45e0-8a40-42682be070c1")
+		)
+		(pin "1"
+			(uuid "1ca0f16e-7d71-422a-9241-b7a5428dc213")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 200.66 176.3522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95bd4476-3ff1-4637-b053-8f4c2c76e491")
+		(property "Reference" "C21"
+			(at 202.692 181.1782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 202.438 181.3052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 200.66 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 198.628 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 203.2 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 198.628 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 198.628 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11385281-e5fe-4f93-8bde-a62bb221163f")
+		)
+		(pin "2"
+			(uuid "a2c8c679-d3b6-4da9-8ffb-f4ddaca413d0")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 190.5 176.3522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96992359-5a3e-4fc4-ba3a-5e41c1913cc0")
+		(property "Reference" "C20"
+			(at 192.532 181.1782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 192.278 181.3052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 190.5 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "GRM155R61H474KE11D"
+			(at 188.468 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "470nF"
+			(at 191.77 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Murata"
+			(at 188.468 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 188.468 173.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f698b7db-5ee5-47c2-a138-2a83e16fd808")
+		)
+		(pin "2"
+			(uuid "8963113d-68c1-43de-bbab-fb4186c3b017")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_2_62000511121")
+		(at 172.72 65.8622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b43d630-2b67-4dd5-822a-dafb33e7a61d")
+		(property "Reference" "J1"
+			(at 165.1 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "62000511121"
+			(at 165.1 68.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "62000511121"
+			(at 172.72 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.00 mm THT Pin Header, 6p"
+			(at 172.72 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "62000511121"
+			(at 165.1 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" "Wurth Elektronik"
+			(at 165.1 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "5"
+			(at 165.1 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FAMÍLIA" "Connector"
+			(at 165.1 48.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68abfb87-c4fa-4437-b34b-391767798ee2")
+		)
+		(pin "2"
+			(uuid "a4875ddc-0c91-48ac-b8f7-5d3737589756")
+		)
+		(pin "3"
+			(uuid "265343eb-8753-480c-bc34-7260284ad67f")
+		)
+		(pin "4"
+			(uuid "479f3375-6f47-41fd-b8fb-118f658b152d")
+		)
+		(pin "5"
+			(uuid "2d240b2a-29c6-402f-a475-b26ba7baa974")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_2_L-US0603")
+		(at 342.9 195.4022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a07fa477-0cfc-4a1b-834c-78d3c6b4720c")
+		(property "Reference" "L4"
+			(at 343.662 192.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ferrite bead 0603"
+			(at 341.63 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L0603"
+			(at 342.9 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "YI160808U121-2R5T"
+			(at 341.63 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "120 ohm"
+			(at 343.662 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YJYCOIN"
+			(at 341.63 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Inductor"
+			(at 341.63 187.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd4cffe0-27cb-4dac-9261-0e31943c871a")
+		)
+		(pin "1"
+			(uuid "14f20210-3f1f-4442-aae0-8fdddea60670")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 334.01 201.7522 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4bac755-5fc6-4352-916e-3a1610199d8b")
+		(property "Reference" "C23"
+			(at 336.042 206.5782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 335.788 206.7052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 334.01 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A105KA5NQNC"
+			(at 331.978 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 336.55 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 331.978 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 331.978 198.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e109ddf3-5808-4a02-82b3-5e724241958d")
+		)
+		(pin "2"
+			(uuid "cea48196-c5c9-469f-b2f5-53581d8e5107")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 76.2 64.5922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa2854a6-bea2-4c00-93a8-02128a6c203c")
+		(property "Reference" "C14"
+			(at 78.232 69.4182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 77.978 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 76.2 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 74.168 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 78.74 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 74.168 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 74.168 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e23948-e478-408a-adee-1b564027cd81")
+		)
+		(pin "2"
+			(uuid "a8525b19-d06e-47f0-bcc8-0d54b545e7ae")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 245.11 168.7322 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b367aedf-a382-47da-843f-586a2b22dceb")
+		(property "Reference" "#PWR?"
+			(at 245.11 168.7322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 168.7322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 168.7322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 168.7322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 168.7322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "919cbc77-fc48-4da0-9d15-85447a26cc91")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 294.64 230.9622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5fcf01f-c64b-4e25-b591-0232f82ca28e")
+		(property "Reference" "#PWR?"
+			(at 294.64 230.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 237.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 230.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 230.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 230.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9766ae0d-8fec-4c88-888e-f4f35749d35e")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 243.84 227.1522 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a94658-6799-494d-8fa3-3289b094e339")
+		(property "Reference" "#PWR?"
+			(at 243.84 227.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 227.1522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 227.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 227.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 227.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "387a614e-ffaf-4787-b571-9d1fcc779888")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 62.23 64.5922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb0e9174-c847-4fa8-9964-618fcc67b5c1")
+		(property "Reference" "C13"
+			(at 64.262 69.4182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 64.008 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 62.23 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 64.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A105KA5NQNC"
+			(at 60.198 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 64.77 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 60.198 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 60.198 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187d002e-6b80-45b3-b2ac-3a9617ead7cb")
+		)
+		(pin "2"
+			(uuid "29719673-c9f4-49b7-ab8f-dc232346ffda")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_L-US0603")
+		(at 175.26 154.7622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea08e20-0628-4306-8f6b-f9afc2f8ac91")
+		(property "Reference" "L2"
+			(at 176.53 154.7622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ferrite bead 0603"
+			(at 174.498 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L0603"
+			(at 175.26 154.7622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 154.7622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 154.7622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "YI160808U121-2R5T"
+			(at 174.498 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "120 ohm"
+			(at 176.53 147.1422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "YJYCOIN"
+			(at 174.498 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Inductor"
+			(at 174.498 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "145fdc5e-0cac-4faf-9f70-05529bab2c52")
+		)
+		(pin "1"
+			(uuid "5d22e6b1-2376-45f1-880e-d722fd919989")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 317.5 67.1322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db989f67-729e-4cce-99d5-5895a383d6c9")
+		(property "Reference" "#PWR?"
+			(at 317.5 67.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 73.4822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 67.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 67.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 67.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "84019f03-a3f0-43de-b5bc-a90c931ebe44")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 77.47 45.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df00f40a-cf53-479c-a7ff-d9a4fbe93551")
+		(property "Reference" "C10"
+			(at 79.502 50.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 79.248 50.4952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 77.47 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 45.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 75.438 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 78.74 44.2722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 75.438 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 75.438 42.4942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19875c2-4c1e-4f04-8496-b76bd62f87d5")
+		)
+		(pin "2"
+			(uuid "1f55e57f-ce43-4847-bf3b-b6b8e1ba48b3")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 66.04 101.4222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e65e9115-4d12-47ef-9ed8-82438204b8db")
+		(property "Reference" "C16"
+			(at 68.072 106.2482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 67.818 106.3752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 66.04 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402C104K8"
+			(at 64.008 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 68.58 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "KEMET"
+			(at 64.008 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 64.008 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcac7279-b2e7-437a-ba02-6e3a9dfadd08")
+		)
+		(pin "2"
+			(uuid "268a21e3-2f48-415d-a6b1-7a0fb35fe763")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:+3V3_CIRCLE")
+		(at 200.66 40.4622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9d3e20e-5cb0-4c57-b12c-303af10f373b")
+		(property "Reference" "#PWR?"
+			(at 200.66 40.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 36.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 40.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 40.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 40.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "aeea15de-d458-4c15-b152-c9070c3cc194")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_C-EUC0402")
+		(at 81.28 101.4222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed2f07e0-c750-4ba0-b4f0-acad482cff27")
+		(property "Reference" "C17"
+			(at 83.312 106.2482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 83.058 106.3752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C0402"
+			(at 81.28 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 101.4222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "CL05A475MQ5NRNC"
+			(at 79.248 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "4.7uF"
+			(at 83.82 102.6922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "Samsung"
+			(at 79.248 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "Capacitor"
+			(at 79.248 98.3742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c18af8-30a8-4270-87e2-751255f7d0d2")
+		)
+		(pin "2"
+			(uuid "d09005e4-c975-4aa0-a5f7-9ce6b4e97687")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:root_0_RAK3172-SiP")
+		(at 250.19 140.7922 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b2a5f7-4ce1-4f2b-8ad7-3c1121096fa2")
+		(property "Reference" "U3"
+			(at 255.27 138.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RAK3172-SiP"
+			(at 255.27 237.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RAK3172SiP"
+			(at 250.19 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 250.19 140.7922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FAMÍLIA" "IC"
+			(at 249.682 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "RAK3172-SIP-9-SM-NI"
+			(at 249.682 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 249.682 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VENDOR" "RAK"
+			(at 249.682 135.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593050f3-a96f-4572-80f5-757bfd5813f5")
+		)
+		(pin "2"
+			(uuid "982f259c-7060-4bff-8ba8-5fc1de77d8da")
+		)
+		(pin "3"
+			(uuid "72788798-ebb0-4450-8b82-c99277a50487")
+		)
+		(pin "4"
+			(uuid "780f3252-6f48-48d2-a229-388057517a0a")
+		)
+		(pin "5"
+			(uuid "2bc5a673-aa35-4cf2-b7f7-28690e3247ee")
+		)
+		(pin "6"
+			(uuid "cf8d1e61-4aa8-4dff-a303-f6f4d3c6625b")
+		)
+		(pin "7"
+			(uuid "0ac97793-66a7-452e-80f2-8cf1134bc349")
+		)
+		(pin "8"
+			(uuid "f8013a88-df5a-4172-b329-a8699ee33950")
+		)
+		(pin "9"
+			(uuid "3a1bc47b-cf5f-4d75-815d-26c61f502c0b")
+		)
+		(pin "10"
+			(uuid "05c21d6b-52b4-4624-bd6f-ccd0c189a08b")
+		)
+		(pin "11"
+			(uuid "6bcfc732-3c21-4ac7-9dcc-e6299bb3f404")
+		)
+		(pin "12"
+			(uuid "66f1896a-20bb-4196-bf24-9bcc73997917")
+		)
+		(pin "13"
+			(uuid "a6837528-0dca-4f16-a60c-3c7f9b18de16")
+		)
+		(pin "14"
+			(uuid "9f7b44ba-a1b4-40fd-b352-52a9fbeda766")
+		)
+		(pin "15"
+			(uuid "51685c3a-a798-49b6-ac65-a04a609da88f")
+		)
+		(pin "16"
+			(uuid "834588f9-58d0-42b8-acc5-3b792dfdb170")
+		)
+		(pin "17"
+			(uuid "41ce7925-6b1f-423a-bed2-998b32b9f834")
+		)
+		(pin "18"
+			(uuid "7cbf7e73-e2d5-477f-ac63-9543d8290563")
+		)
+		(pin "19"
+			(uuid "985d100e-9f94-477e-acbe-399a4787b38b")
+		)
+		(pin "20"
+			(uuid "b4267451-a35d-4b34-9166-c99df7923c43")
+		)
+		(pin "21"
+			(uuid "33e3911c-1a50-4148-bb97-e31252626bcb")
+		)
+		(pin "22"
+			(uuid "7408af24-e476-4c2a-b68e-972d0e2d1e5c")
+		)
+		(pin "23"
+			(uuid "c5825de8-90e9-4a91-9fe0-68ffcd034491")
+		)
+		(pin "24"
+			(uuid "4a63fda7-d326-4508-8ed1-80b26e45950f")
+		)
+		(pin "25"
+			(uuid "259a31f9-1e80-42e1-93cb-2f3923dde3dd")
+		)
+		(pin "26"
+			(uuid "c6ba8840-af6c-47cf-b895-050bcfe48c06")
+		)
+		(pin "27"
+			(uuid "7462441f-d946-4c55-ad1d-fcb59b4df788")
+		)
+		(pin "28"
+			(uuid "8ec131c2-5c35-4064-ac24-49134979dda7")
+		)
+		(pin "29"
+			(uuid "0ce79120-b71c-4532-b427-92d449e92f48")
+		)
+		(pin "30"
+			(uuid "6afc5521-e0ca-4f02-9131-827fb7e2119d")
+		)
+		(pin "31"
+			(uuid "618d9d03-c4ff-40aa-afbf-ac195fa6ded0")
+		)
+		(pin "32"
+			(uuid "edfe5b7b-971c-44d9-a44e-81c43669d9c1")
+		)
+		(pin "33"
+			(uuid "d5dba16e-9111-49fc-9ffe-196566dfec16")
+		)
+		(pin "34"
+			(uuid "59c8677c-4acf-4dba-a38c-143839ef1603")
+		)
+		(pin "35"
+			(uuid "29466fc6-9533-4360-a424-c686e1918430")
+		)
+		(pin "36"
+			(uuid "f30e15bd-964a-4b20-bc15-629ce3fc8760")
+		)
+		(pin "37"
+			(uuid "83b790cf-b55d-441e-bfc4-0f17aca8c66f")
+		)
+		(pin "38"
+			(uuid "dc3b7044-97b7-46a7-a2df-87d8e061ef42")
+		)
+		(pin "39"
+			(uuid "fbb12241-7eb7-4210-a538-b23e3ac6eb7d")
+		)
+		(pin "40"
+			(uuid "f35c1bbf-7940-4580-99a2-b00ca13e0475")
+		)
+		(pin "41"
+			(uuid "8c7a121f-bdbf-46af-83cc-b53ab46f5172")
+		)
+		(pin "42"
+			(uuid "90629e9f-08b2-4edb-aba6-1babac408299")
+		)
+		(pin "43"
+			(uuid "3861bba4-269c-4468-bd2f-15d8d14d9b3d")
+		)
+		(pin "44"
+			(uuid "8af730de-6322-4b5a-95ce-c066807997bf")
+		)
+		(pin "45"
+			(uuid "c87c6939-2465-4a34-85a7-3d8d0f72d0d9")
+		)
+		(pin "46"
+			(uuid "81a5938b-0999-499a-bd9d-3640191002f9")
+		)
+		(pin "47"
+			(uuid "1788fc07-19b0-4ddd-bb6f-45a510c39ae9")
+		)
+		(pin "48"
+			(uuid "1faf3a12-cbf2-4110-9e6e-61cb9626ec7d")
+		)
+		(pin "49"
+			(uuid "f943f55e-5aca-462f-8fac-686255d63162")
+		)
+		(pin "50"
+			(uuid "56060b70-5f4c-4e3a-9ecc-089b8a627d65")
+		)
+		(pin "51"
+			(uuid "7ffad154-f8bd-4758-a40d-cf1eddb0daac")
+		)
+		(pin "52"
+			(uuid "fe171e0a-e383-4edf-8e83-9c2b4d129c93")
+		)
+		(pin "53"
+			(uuid "b29f1b3e-0c62-4ad4-ae87-922390aaaf27")
+		)
+		(pin "54"
+			(uuid "3026585f-65f8-4671-a1bc-d4253e0b336f")
+		)
+		(pin "55"
+			(uuid "b1be107e-6673-4ca8-ac50-f69ed37afaac")
+		)
+		(pin "56"
+			(uuid "3b8643b8-2579-4022-9b8c-cf64f20059b3")
+		)
+		(pin "57"
+			(uuid "9707f2f5-51dc-4774-9ba3-199d317822d4")
+		)
+		(pin "58"
+			(uuid "9e1c1b79-0b8c-4ccc-bc41-36730038ceae")
+		)
+		(pin "59"
+			(uuid "bb977e3b-026d-4529-b673-0a2da37f6812")
+		)
+		(pin "60"
+			(uuid "b18f6249-4ff4-4142-86d7-f13c403b1892")
+		)
+		(pin "61"
+			(uuid "ceef4348-2737-4218-b4ea-07eb87989cfc")
+		)
+		(pin "62"
+			(uuid "a687c2a5-484a-466d-859d-2ab95db95aea")
+		)
+		(pin "63"
+			(uuid "4ae5a306-419f-404e-8ee3-bb22fb298c90")
+		)
+		(pin "64"
+			(uuid "c001be78-38fb-4c8b-a753-6b2770ffa1e6")
+		)
+		(pin "65"
+			(uuid "bc4b37a4-5e5e-4df5-8f20-d6a0c13501a7")
+		)
+		(pin "66"
+			(uuid "51219dba-311a-4320-bd9b-5c288dfef580")
+		)
+		(pin "67"
+			(uuid "c0d3671e-c97e-4786-8815-7e1e7de26c9b")
+		)
+		(pin "68"
+			(uuid "607d2e07-2da7-4908-836d-450482fd9d65")
+		)
+		(pin "69"
+			(uuid "640a4f63-b0ef-4bff-a5f2-bb5d7d1c9acb")
+		)
+		(pin "70"
+			(uuid "dd022ddc-e12d-4cd9-8e91-85b5355934f7")
+		)
+		(pin "71"
+			(uuid "df11f983-1d7c-465e-8465-6023825d696b")
+		)
+		(pin "72"
+			(uuid "bd5a88f4-6065-42e3-88ad-7ea177b6c1bb")
+		)
+		(pin "73"
+			(uuid "f5277546-9e60-461c-9672-0bd708669c85")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32WL_LHCbit-altium-import:GND_POWER_GROUND")
+		(at 83.82 86.1822 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdaec126-feab-4a2a-89a1-8bb373467a5e")
+		(property "Reference" "#PWR?"
+			(at 83.82 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 86.1822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 86.1822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "15cc3b5e-9d6b-41b0-838b-4087f4c1ddf3")
+		)
+		(instances
+			(project ""
+				(path "/1274afc6-d060-4a9c-9dc5-25360badbfcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+)
