@@ -19,8 +19,7 @@ Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, at
 # Bibliotecas
 - [KiCad LHC](https://github.com/lhc/Hardware/tree/main/Libraries/lhc_kicad_library)
 
-# Contributors (committers)
-
+# Contributors (committers) LHCbit
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
