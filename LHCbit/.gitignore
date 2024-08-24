@@ -69,4 +69,5 @@ ALTIUM_EMBEDDED_MODELS/
 altium/*.kicad_pro
 altium/*.kicad_sym
 STM32WL_LHCbit-backups/
+ESP32_LHCbit-backups/
 *.lck
