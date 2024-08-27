@@ -93,3 +93,5 @@ Oficina de apresentação do projeto
 
 # Contatos:
  - [Discourse](https://discourse.lhc.net.br/c/hardware/21)
+
+# Contribuidores

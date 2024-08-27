@@ -4,17 +4,17 @@ on:
     - cron:  '0 4 * * *'
 
 jobs:
-  add-contributors:
+  add-lhcbit-contributors:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: BobAnkh/add-contributors@master
       with:
-        CONTRIBUTOR: '# Contributors (committers)'
+        CONTRIBUTOR: '# Contribuidores'
         COLUMN_PER_ROW: '6'
         ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
         IMG_WIDTH: '85'
         FONT_SIZE: '14'
-        PATH: '/README.md'
-        COMMIT_MESSAGE: 'docs(README): update contributors'
+        PATH: '/LHCbit/README.md'
+        COMMIT_MESSAGE: 'docs(README): update LHCBit contributors'
         AVATAR_SHAPE: 'round'
