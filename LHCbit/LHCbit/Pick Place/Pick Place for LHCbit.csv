@@ -4,13 +4,14 @@ C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\LHCbit\Pick Place\Pic
 ========================================================================================================================
 File Design Information:
 
-Date:       20/06/24
-Time:       20:23
-Revision:   460f4bde24939ef541ecc2f19e6fa4fb46d55436
+Date:       29/08/24
+Time:       21:50
+Revision:   23646a1af7febf66601adb204a59159b45efe8f9
 Variant:    No variations
 Units used: mm
 
 "Designator","Center-X(mm)","Center-Y(mm)","Layer","Rotation"
+"LCD","25.9050","13.0000","BottomLayer","180"
 "MB1","26.0000","4.7000","BottomLayer","180"
 "C8","12.0002","16.6998","TopLayer","270"
 "C7","14.3002","16.6998","TopLayer","270"
@@ -19,7 +20,6 @@ Units used: mm
 "S1","6.0000","28.5000","BottomLayer","90"
 "LED2","27.3000","20.0000","TopLayer","180"
 "C4","26.0998","17.1998","TopLayer","180"
-"LCD1","25.8950","13.0000","BottomLayer","180"
 "U2","27.0000","28.3500","TopLayer","270"
 "C6","24.4001","33.5999","TopLayer","180"
 "C5","30.9000","24.8001","TopLayer","0"

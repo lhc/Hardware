@@ -390,7 +390,7 @@ Value=
 
 [Parameter4]
 Name=<Revision>
-Value=1.0
+Value=2.0
 
 [Parameter5]
 Name=<ProjectName>
