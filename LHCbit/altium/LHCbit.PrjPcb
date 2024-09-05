@@ -377,35 +377,35 @@ DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=<Address1>
+Name=<Time>
 Value=
 
 [Parameter2]
-Name=<ApprovedBy>
-Value=
+Name=<SheetTotal>
+Value=2
 
 [Parameter3]
-Name=<Author>
-Value=Leandro Pereira / Thiago Roque/Gustavo
+Name=<Rule>
+Value=
 
 [Parameter4]
-Name=<CheckedBy>
-Value=
+Name=<Revision>
+Value=2.0
 
 [Parameter5]
-Name=<CompanyName>
-Value=
+Name=<ProjectName>
+Value=LHCbit
 
 [Parameter6]
-Name=<CurrentDate>
+Name=<Organization>
 Value=
 
 [Parameter7]
-Name=<CurrentTime>
+Name=<ModifiedDate>
 Value=
 
 [Parameter8]
-Name=<Date>
+Name=<Engineer>
 Value=
 
 [Parameter9]
@@ -413,35 +413,35 @@ Name=<DrawnBy>
 Value=
 
 [Parameter10]
-Name=<Engineer>
+Name=<Date>
 Value=
 
 [Parameter11]
-Name=<ModifiedDate>
+Name=<CurrentTime>
 Value=
 
 [Parameter12]
-Name=<Organization>
+Name=<CurrentDate>
 Value=
 
 [Parameter13]
-Name=<ProjectName>
-Value=LHCbit
-
-[Parameter14]
-Name=<Revision>
-Value=1.0
-
-[Parameter15]
-Name=<Rule>
+Name=<CompanyName>
 Value=
 
+[Parameter14]
+Name=<CheckedBy>
+Value=
+
+[Parameter15]
+Name=<Author>
+Value=Leandro Pereira / Thiago Roque/Gustavo
+
 [Parameter16]
-Name=<SheetTotal>
-Value=2
+Name=<ApprovedBy>
+Value=
 
 [Parameter17]
-Name=<Time>
+Name=<Address1>
 Value=
 
 [Configuration1]
@@ -1185,36 +1185,6 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Ansoft Neutral
-OutputName11=Ansoft Neutral (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=HyperLynx
-OutputName12=HyperLynx (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
