@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\LHCbit.PcbDoc
+DRC Rules Export File for PCB: C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\altium\LHCbit.PcbDoc
 RuleKind=Width|RuleName=RF_1|Scope=Board|Minimum=8.84
 RuleKind=Clearance|RuleName=RF|Scope=Board|Minimum=6.00
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

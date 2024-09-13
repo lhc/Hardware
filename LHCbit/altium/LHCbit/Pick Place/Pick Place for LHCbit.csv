@@ -1,16 +1,17 @@
 Altium Designer Pick and Place Locations
-C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\LHCbit\Pick Place\Pick Place for LHCbit.csv
+C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\altium\LHCbit\Pick Place\Pick Place for LHCbit.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       30/08/24
-Time:       15:53
-Revision:   7584704ec54e4880befecb72cff07be47f78ba7c
+Date:       13/09/24
+Time:       15:43
+Revision:   ba930c35bc568c890450b64e46a886340112682b
 Variant:    No variations
 Units used: mm
 
 "Designator","Center-X(mm)","Center-Y(mm)","Layer","Rotation"
+"S3","2.4750","14.4500","TopLayer","90"
 "LCD","25.9050","13.0000","BottomLayer","180"
 "MB1","26.0000","4.7000","BottomLayer","180"
 "C8","12.0002","16.6998","TopLayer","270"
