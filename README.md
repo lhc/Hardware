@@ -16,15 +16,23 @@ Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, at
 # Oficinas
 - [Evento: Construindo sua placa em KiCad](https://github.com/lhc/Hardware/tree/main/Oficinas/monte-sua-placa-kicad)
 
+# Portes
+- [Porte da LHCbit para NuttX](https://github.com/apache/nuttx/blob/master/Documentation/platforms/xtensa/esp32s3/boards/esp32s3-lhcbit/index.rst)
+
 # Bibliotecas
 - [KiCad LHC](https://github.com/lhc/Hardware/tree/main/Libraries/lhc_kicad_library)
 
 # Contribuidores
-
+- Leandro Pereira
 - Douglas Esteves
 - Jorge Guzman
-- Leandro Pereira
 - Manassés Souza
+- Marcelo Junqueira
+- Matheus Brito
+- Estevan
 - Pedro Minatel
 - Rafael Estevam
-- Tiago Serrano
+- Alexandre Fernandes
+- Rodrigo Azevedo
+- Gustavo Ortenzi
+
