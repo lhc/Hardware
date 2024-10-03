@@ -96,6 +96,11 @@ Oficina de apresentação do projeto
 - 20/06/2024 Reunião interna para comunicar apoiadores e documentar projeto
 - 13/06/2024 Status do projeto (e-mail aos apoiadores)
 - 25/04/2024 update README
+- 15/08/2024 Montagem final da LHCbit edition collectibles
+- 05/09/2024 Apresentação sobre o projeto no LHC e remoto
+- 12/09/2024 [Porte da LHCbit para NuttX](https://github.com/apache/nuttx/blob/master/Documentation/platforms/xtensa/esp32s3/boards/esp32s3-lhcbit/index.rst)
+- 26/09/2024 Reunião e avaliação do github
+- 03/10/2024 Reunião e revisão de hardware e github
 
 # Contatos:
  - [Discourse](https://discourse.lhc.net.br/c/hardware/21)
@@ -125,12 +130,3 @@ Oficina de apresentação do projeto
             <sub style="font-size:14px"><b>Manassés Loiola de Souza</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
-        <a href=https://github.com/rodrigoferrazazevedo>
-            <img src=https://avatars.githubusercontent.com/u/5572308?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Rodrigo Ferraz Azevedo/>
-            <br />
-            <sub style="font-size:14px"><b>Rodrigo Ferraz Azevedo</b></sub>
-        </a>
-    </td>
-</tr>
-</table>
