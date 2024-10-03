@@ -10,6 +10,9 @@ LHCbit  é uma placa de desenvolvimento para a comunidade, uma ferramenta de apr
 - Conector USB type C
 - Padrão Microbit, sendo possível usar todos os projetos open source voltadas para a microbit.
 
+- ![LHCbit](//Imagens/lhcbit-flyer-out-2024.png)
+
+
 Esse repositório fica com os principais arquivos do hardware LHCbit, lista BOM (bill of material)  e logs da evolução do projeto como texto sobre via readme.md, com chamadas, links, pré-vendas e atualização das etapas da execução do projeto aberto.
 
 Como todo repositório de projeto é algo vivo e com constantes atualizações e melhorias no projeto, então fique convidado a colaborar.
