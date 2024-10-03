@@ -76,6 +76,9 @@ Oficina de apresentação do projeto
  - Leandro Pereira
  - Douglas Esteves
  - Manasses
+ - Matheus Brito
+ - Marcelo Junqueira
+ - Estevan
 
 # Agradecimentos especial aos apoiadores do Projeto
 - Daniel Barbosa
