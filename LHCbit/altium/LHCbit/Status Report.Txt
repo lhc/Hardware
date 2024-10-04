@@ -1,0 +1,10 @@
+Output: BOM_JLCPCB
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LHCbit.PrjPcb]
+   Generated File[BOM_JLCPCB-LHCbit.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:43:01 On 27/09/2024
