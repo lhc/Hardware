@@ -18,3 +18,4 @@ jobs:
         PATH: '/LHCbit/README.md'
         COMMIT_MESSAGE: 'docs(README): update LHCBit contributors'
         AVATAR_SHAPE: 'round'
+        IGNORED_CONTRIBUTORS: 'rodrigoferrazazevedo'
