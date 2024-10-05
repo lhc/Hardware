@@ -107,3 +107,36 @@ Oficina de apresentação do projeto
 
 # Contribuidores
 
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
+        <a href=https://github.com/EstevesDouglas>
+            <img src=https://avatars.githubusercontent.com/u/861823?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Douglas Esteves/>
+            <br />
+            <sub style="font-size:14px"><b>Douglas Esteves</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
+        <a href=https://github.com/LeandroTE>
+            <img src=https://avatars.githubusercontent.com/u/3963775?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Leandro Pereira/>
+            <br />
+            <sub style="font-size:14px"><b>Leandro Pereira</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
+        <a href=https://github.com/manasouza>
+            <img src=https://avatars.githubusercontent.com/u/1930037?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manassés Loiola de Souza/>
+            <br />
+            <sub style="font-size:14px"><b>Manassés Loiola de Souza</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
+        <a href=https://github.com/rodrigoferrazazevedo>
+            <img src=https://avatars.githubusercontent.com/u/5572308?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Rodrigo Ferraz Azevedo/>
+            <br />
+            <sub style="font-size:14px"><b>Rodrigo Ferraz Azevedo</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
