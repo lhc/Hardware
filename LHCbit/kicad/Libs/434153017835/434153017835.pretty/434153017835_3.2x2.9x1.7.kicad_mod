@@ -1,0 +1,212 @@
+(footprint "434153017835_3.2x2.9x1.7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "S3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8a5a78ec-cefe-461a-8723-168e03596445")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "434153017835"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e50c65c-0907-4447-b993-344e16586db1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a025190-2d46-48af-a030-27b358d23f81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1481020-4e46-460a-9fee-83f18e42bdc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WS-TASV 3.5x2.9mm Tact Switch, J-Bend SMD version"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4135479-af0e-469a-8b79-74c490f9ca1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "434153017835"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fef4aa3-07c2-425c-8233-635c1f881695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4917f2a2-e793-4840-884d-e6d99400474d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VENDOR" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3b2ef48-e281-4d47-8103-9d6a032f7493")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FAMÍLIA" "Switches"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adf3de04-e8a6-4482-9617-b1720369431b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.75 -1.45)
+		(end 1.75 -1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d714ce8-4bcb-4e23-9bc2-f7ca2b755b7e")
+	)
+	(fp_line
+		(start -1.75 1.45)
+		(end 1.75 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81ece88b-c31b-45d7-acaa-d5033585b506")
+	)
+	(fp_line
+		(start -2.15 -1.45)
+		(end -2.15 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "eb4fb72f-c31b-417d-9cd0-1f3d227c1da0")
+	)
+	(fp_line
+		(start -2.15 -1.45)
+		(end 2.15 -1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6a23c984-7d7f-47de-b60e-f0a1c64261bc")
+	)
+	(fp_line
+		(start -2.15 1.45)
+		(end 2.15 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "926fdd89-f56c-42d1-b952-0f0127b7bafe")
+	)
+	(fp_line
+		(start 2.15 -1.45)
+		(end 2.15 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e98b7446-0f73-43eb-a924-4e24c8dafd98")
+	)
+	(pad "1" smd rect
+		(at -1.675 -0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "92d5bc6e-8343-4267-a723-689fe3649514")
+	)
+	(pad "2" smd rect
+		(at -1.675 0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c4838ee7-3fc0-468a-80c6-11c89d96df48")
+	)
+	(pad "3" smd rect
+		(at 1.675 -0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59a4d863-7dd3-4614-a7d1-78f34235c61f")
+	)
+	(pad "4" smd rect
+		(at 1.675 0.725)
+		(size 1.15 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba2a661b-45e8-49f2-8067-13dd6f765e22")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/434153017835.stp"
+		(offset
+			(xyz 0.00008 0.00011 0.02)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)
