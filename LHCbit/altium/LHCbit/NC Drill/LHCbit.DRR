@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: LHCbit.PcbDoc   27/09/2024  11:42:59
+NCDrill File Report For: LHCbit.PcbDoc   31/10/2024  20:30:40
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,13 +8,13 @@ ASCII SlotHoles File : LHCbit-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             295       PTH        663.87mm (26.14inch)
+T1      0.3mm (12mil)                                             Round             297       PTH        632.81mm (24.91inch)
 T2      0.6mm (24mil)                                             Slot              4         PTH        38.14mm (1.50inch)
-T3      0.8mm (31mil)                                             Round             5         PTH        8.00mm (0.31inch)
+T3      0.8mm (31mil)                                             Round             9         PTH        111.35mm (4.38inch)
 T4      1mm (39mil)                                               Round             11        PTH        25.40mm (1.00inch)
 T5      4mm (157mil)                                              Round             5         PTH        43.24mm (1.70inch)
 T6      0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              322
+Totals                                                                              328
 
 Total Processing Time (hh:mm:ss) : 00:00:00

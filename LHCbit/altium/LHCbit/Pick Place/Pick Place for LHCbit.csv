@@ -4,14 +4,15 @@ C:\Users\leand\Documents\Altium\Projetos\LHC\LHCbit\LHCbit\altium\LHCbit\Pick Pl
 ========================================================================================================================
 File Design Information:
 
-Date:       27/09/24
-Time:       11:42
-Revision:   ffb8dea4b6ef5b96f214d6e2ff6e53f25a5396d3
+Date:       31/10/24
+Time:       20:30
+Revision:   cc5423586985e88507692df1d04bd93dcddf59c2
 Variant:    No variations
 Units used: mm
 
 "Designator","Center-X(mm)","Center-Y(mm)","Layer","Rotation"
-"S3","2.4750","14.4500","TopLayer","90"
+"J2","1.5000","16.7500","TopLayer","90"
+"S3","4.5000","14.5000","TopLayer","90"
 "LCD","25.9050","13.0000","BottomLayer","180"
 "MB1","26.0000","4.7000","BottomLayer","180"
 "C8","12.0002","16.6998","TopLayer","270"

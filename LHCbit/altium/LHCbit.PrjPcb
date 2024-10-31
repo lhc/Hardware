@@ -377,35 +377,35 @@ DocumentPath=Apolo\Pick Place\Pick Place for Neras_X_Apolo.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=<Time>
+Name=<Address1>
 Value=
 
 [Parameter2]
-Name=<SheetTotal>
-Value=2
-
-[Parameter3]
-Name=<Rule>
+Name=<ApprovedBy>
 Value=
 
+[Parameter3]
+Name=<Author>
+Value=Leandro Pereira / Thiago Roque/Gustavo
+
 [Parameter4]
-Name=<Revision>
-Value=2.0
+Name=<CheckedBy>
+Value=
 
 [Parameter5]
-Name=<ProjectName>
-Value=LHCbit
+Name=<CompanyName>
+Value=
 
 [Parameter6]
-Name=<Organization>
+Name=<CurrentDate>
 Value=
 
 [Parameter7]
-Name=<ModifiedDate>
+Name=<CurrentTime>
 Value=
 
 [Parameter8]
-Name=<Engineer>
+Name=<Date>
 Value=
 
 [Parameter9]
@@ -413,35 +413,35 @@ Name=<DrawnBy>
 Value=
 
 [Parameter10]
-Name=<Date>
+Name=<Engineer>
 Value=
 
 [Parameter11]
-Name=<CurrentTime>
+Name=<ModifiedDate>
 Value=
 
 [Parameter12]
-Name=<CurrentDate>
+Name=<Organization>
 Value=
 
 [Parameter13]
-Name=<CompanyName>
-Value=
+Name=<ProjectName>
+Value=LHCbit
 
 [Parameter14]
-Name=<CheckedBy>
-Value=
+Name=<Revision>
+Value=2.0
 
 [Parameter15]
-Name=<Author>
-Value=Leandro Pereira / Thiago Roque/Gustavo
-
-[Parameter16]
-Name=<ApprovedBy>
+Name=<Rule>
 Value=
 
+[Parameter16]
+Name=<SheetTotal>
+Value=2
+
 [Parameter17]
-Name=<Address1>
+Name=<Time>
 Value=
 
 [Configuration1]
