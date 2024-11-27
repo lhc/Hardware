@@ -1,6 +1,5 @@
 # Desenvolvimento de HW LHC
-Desde a sua fundação vários projetos de HW abertos foram desenvolvidos no LHC, usando diferentes processadores e ferramentas.
-Este repositório contém todos os projetos já desenvolvidos no LHC.
+Desde a sua fundação vários projetos de HW Hardware abertos foram desenvolvidos no LHC, usando diferentes processadores e ferramentas. Este repositório contém todos os projetos já desenvolvidos no LHC.
 
 # Contribua e participe dos projetos com Hardware no LHC
 Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, através da criação de sua conta no forum e conversando com o pessoal sobre os diversos projetos. [https://discourse.lhc.net.br](https://discourse.lhc.net.br/c/hardware/21)
