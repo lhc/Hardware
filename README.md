@@ -5,6 +5,7 @@ Desde a sua fundação vários projetos de HW Hardware abertos foram desenvolvid
 Acesse o nosso forms e se conecte ao time do Laboratório Hacker de Campinas, através da criação de sua conta no forum e conversando com o pessoal sobre os diversos projetos. [https://discourse.lhc.net.br](https://discourse.lhc.net.br/c/hardware/21)
 
 # Projetos
+- 2024
 - [LHCbit](https://github.com/lhc/Hardware/tree/main/LHCbit)
 - ![LHCbit](/LHCbit/Imagens/lhcbit-flyer.jpeg)
 - [Venda limitada, pegue a sua placa antes que acabe](https://forms.gle/h3qhtFoRbykofKP68)
