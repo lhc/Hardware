@@ -111,21 +111,21 @@ Oficina de apresentação do projeto
 <tr>
     <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
         <a href=https://github.com/EstevesDouglas>
-            <img src=https://private-avatars.githubusercontent.com/u/861823?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjkyNDAsIm5iZiI6MTczNDY2ODA0MCwicGF0aCI6Ii91Lzg2MTgyMyJ9.MRmRNqS0q1onJtKL6nIzW4hpqtmr7k0NTuPkpCtu7IQ&v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Douglas Esteves/>
+            <img src=https://avatars.githubusercontent.com/u/861823?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Douglas Esteves/>
             <br />
             <sub style="font-size:14px"><b>Douglas Esteves</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
         <a href=https://github.com/LeandroTE>
-            <img src=https://private-avatars.githubusercontent.com/u/3963775?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjkxODAsIm5iZiI6MTczNDY2Nzk4MCwicGF0aCI6Ii91LzM5NjM3NzUifQ.bBAO2596VnEMpPjQYXw-MFrs2gbRboPWyuNYo6U224g&v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Leandro Pereira/>
+            <img src=https://avatars.githubusercontent.com/u/3963775?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Leandro Pereira/>
             <br />
             <sub style="font-size:14px"><b>Leandro Pereira</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 127.5; height: 127.5">
         <a href=https://github.com/manasouza>
-            <img src=https://private-avatars.githubusercontent.com/u/1930037?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjkzMDAsIm5iZiI6MTczNDY2ODEwMCwicGF0aCI6Ii91LzE5MzAwMzcifQ.4DP2Z78h04TBz_PeBocelRczQC4cug9OPi6FFmo6K2c&v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manassés Loiola de Souza/>
+            <img src=https://avatars.githubusercontent.com/u/1930037?v=4 width="85;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manassés Loiola de Souza/>
             <br />
             <sub style="font-size:14px"><b>Manassés Loiola de Souza</b></sub>
         </a>
